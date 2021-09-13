@@ -1,25 +1,48 @@
+/* eslint-disable react/jsx-no-bind */
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import {
+  AppBar,
+  IconButton,
+  ThemeProvider,
+  Toolbar,
+  Typography
+} from '@material-ui/core';
+import HomeIcon from '@material-ui/icons/Home';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import Routes from './routes';
+import { getTheme } from './themes/themeManager';
 
-function App() {
+function App(): JSX.Element {
+  /// can also be light theme!
+  const theme = getTheme('dark');
+
+  function handleMenuHome() {
+    window.location.href = process.env.PUBLIC_URL;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline>
+          <AppBar position="static">
+            <Toolbar>
+              <IconButton
+                edge="end"
+                color="secondary"
+                aria-label="home page"
+                onClick={handleMenuHome}
+              >
+                <HomeIcon fontSize="small" />
+              </IconButton>
+              <Typography variant="caption">SpaceX Launches</Typography>
+            </Toolbar>
+          </AppBar>
+          <Routes />
+        </CssBaseline>
+      </ThemeProvider>
+    </Provider>
   );
 }
 
