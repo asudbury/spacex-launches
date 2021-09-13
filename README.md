@@ -2,6 +2,8 @@
 
 # SpaceX Launches
 
+This application lists the most recent 50 launches from SpaceX.
+
 ![Build and Deploy to GitHub Pages](https://github.com/asudbury/spacex-launches/workflows/Build%20and%20Deploy%20to%20GitHub%20Pages/badge.svg)
 
 https://asudbury.github.io/spaces-launches/
