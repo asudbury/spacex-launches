@@ -122,7 +122,6 @@ export default function Launch(): JSX.Element {
         )}
         {tabValue === TabValue.Links && (
           <div>
-            {' '}
             <List>
               <ListItem>
                 <ListItemText
