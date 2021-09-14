@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Box, Tabs, Tab } from '@material-ui/core';
+import { format } from 'date-fns';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import AirplanemodeActiveIcon from '@material-ui/icons/AirplanemodeActive';
 import LanguageIcon from '@material-ui/icons/Language';
@@ -87,7 +88,10 @@ export default function Launch(): JSX.Element {
               <ListItem>
                 <ListItemText
                   primary="Launch Date"
-                  secondary={launch.launch_date_utc}
+                  secondary={format(
+                    new Date(launch.launch_date_utc),
+                    'dd-MMM-yyyy HH:mm:ss'
+                  )}
                 />
               </ListItem>
               <ListItem>

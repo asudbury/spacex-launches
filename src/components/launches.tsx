@@ -2,6 +2,7 @@ import React from 'react';
 import MaterialTable from 'material-table';
 import { makeStyles } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
+import { format } from 'date-fns';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import { useGetLaunchesQuery } from '../redux/spaceXApi';
 import { Launch } from '../types';
@@ -74,7 +75,10 @@ export default function Launches(): JSX.Element {
                 if (type === 'row') {
                   return (
                     <div className={classes.nowrap}>
-                      {rowData.launch_date_utc}
+                      {format(
+                        new Date(rowData.launch_date_utc),
+                        'dd-MMM-yyyy HH:mm:ss'
+                      )}
                     </div>
                   );
                 }
