@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Box, Tabs, Tab } from '@material-ui/core';
-import { format } from 'date-fns';
 import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
 import AirplanemodeActiveIcon from '@material-ui/icons/AirplanemodeActive';
 import LanguageIcon from '@material-ui/icons/Language';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import { useGetLaunchesQuery } from '../redux/spaceXApi';
 import TextHighlighter from './textHighlighter';
+import LaunchLinks from './launchLinks';
+import LaunchRocket from './launchRocket';
+import LaunchMission from './launchMission';
 
 export default function Launch(): JSX.Element {
   const { launchId } = useParams<{ launchId: string }>();
@@ -34,7 +33,7 @@ export default function Launch(): JSX.Element {
   if (!launch) return <div>error!</div>;
 
   return (
-    <Box p={3}>
+    <Box p={1}>
       <Tabs
         indicatorColor="primary"
         textColor="primary"
@@ -70,99 +69,11 @@ export default function Launch(): JSX.Element {
       </Tabs>
 
       <Box p={3}>
-        {tabValue === TabValue.Mission && (
-          <div>
-            <List>
-              <ListItem>
-                <ListItemText
-                  primary="Flight Number"
-                  secondary={launch.flight_number}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Mission Name"
-                  secondary={launch.mission_name}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Launch Date"
-                  secondary={format(
-                    new Date(launch.launch_date_utc),
-                    'dd-MMM-yyyy HH:mm:ss'
-                  )}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Launch Site"
-                  secondary={launch.launch_site.site_name_long}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="" secondary={launch.details} />
-              </ListItem>
-            </List>
-            <img src={launch.links.mission_patch_small} alt="mission" />
-          </div>
-        )}
+        {tabValue === TabValue.Mission && <LaunchMission launch={launch} />}
         {tabValue === TabValue.Rocket && (
-          <div>
-            <List>
-              <ListItem>
-                <ListItemText
-                  primary="Rocket Name"
-                  secondary={launch.rocket.rocket_name}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Rocket Type"
-                  secondary={launch.rocket.rocket_type}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Manufacturer"
-                  secondary={
-                    launch.rocket.second_stage.payloads[0].manufacturer
-                  }
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Serial Number"
-                  secondary={launch.rocket.first_stage.cores[0].core_serial}
-                />
-              </ListItem>
-            </List>
-          </div>
+          <LaunchRocket rocket={launch.rocket} />
         )}
-        {tabValue === TabValue.Links && (
-          <div>
-            <List>
-              <ListItem>
-                <ListItemText
-                  primary="Article"
-                  secondary={launch.links.article_link}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Wikipedia"
-                  secondary={launch.links.wikipedia}
-                />
-              </ListItem>
-              <ListItem>
-                <ListItemText
-                  primary="Video"
-                  secondary={launch.links.video_link}
-                />
-              </ListItem>
-            </List>
-          </div>
-        )}
+        {tabValue === TabValue.Links && <LaunchLinks links={launch.links} />}
         {tabValue === TabValue.Json && (
           <div>
             <TextHighlighter

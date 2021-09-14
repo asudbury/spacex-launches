@@ -2,7 +2,7 @@ import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { anOldHope } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 
-interface textHighlighterProps {
+interface TextHighlighterProps {
   language: string;
   text: string;
 }
@@ -10,7 +10,7 @@ interface textHighlighterProps {
 export default function TextHighlighter({
   language,
   text
-}: textHighlighterProps): JSX.Element {
+}: TextHighlighterProps): JSX.Element {
   return (
     <>
       <SyntaxHighlighter
