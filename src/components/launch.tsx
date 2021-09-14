@@ -95,9 +95,16 @@ export default function Launch(): JSX.Element {
                 />
               </ListItem>
               <ListItem>
+                <ListItemText
+                  primary="Launch Site"
+                  secondary={launch.launch_site.site_name_long}
+                />
+              </ListItem>
+              <ListItem>
                 <ListItemText primary="" secondary={launch.details} />
               </ListItem>
             </List>
+            <img src={launch.links.mission_patch_small} alt="mission" />
           </div>
         )}
         {tabValue === TabValue.Rocket && (
@@ -113,6 +120,14 @@ export default function Launch(): JSX.Element {
                 <ListItemText
                   primary="Rocket Type"
                   secondary={launch.rocket.rocket_type}
+                />
+              </ListItem>
+              <ListItem>
+                <ListItemText
+                  primary="Manufacturer"
+                  secondary={
+                    launch.rocket.second_stage.payloads[0].manufacturer
+                  }
                 />
               </ListItem>
               <ListItem>
