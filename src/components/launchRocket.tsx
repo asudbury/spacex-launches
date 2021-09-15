@@ -12,7 +12,7 @@ export default function LaunchRocket({
   rocket
 }: LaunchRocketProps): JSX.Element {
   return (
-    <div>
+    <div data-testid="launchRocket">
       <List>
         <ListItem>
           <ListItemText primary="Rocket Name" secondary={rocket.rocket_name} />

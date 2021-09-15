@@ -8,7 +8,6 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.4",
     "@reduxjs/toolkit": "^1.6.1",
-    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
@@ -60,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
     "@types/react-router-dom": "^5.1.8",
     "@types/react-syntax-highlighter": "^13.5.2",
     "babel-eslint": "^10.1.0",

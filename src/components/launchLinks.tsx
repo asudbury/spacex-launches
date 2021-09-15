@@ -11,15 +11,15 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-interface LinksProps {
+interface LaunchLinksProps {
   links: Links;
 }
 
-export default function LaunchLinks({ links }: LinksProps): JSX.Element {
+export default function LaunchLinks({ links }: LaunchLinksProps): JSX.Element {
   const classes = useStyles();
 
   return (
-    <div>
+    <div data-testid="launchLinks">
       <List>
         <ListItem>
           <ListItemText primary="Article" />
