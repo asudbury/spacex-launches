@@ -33,7 +33,7 @@ export default function Launch(): JSX.Element {
   if (!launch) return <div>error!</div>;
 
   return (
-    <Box p={1}>
+    <Box p={1} data-testid="launch">
       <Tabs
         indicatorColor="primary"
         textColor="primary"

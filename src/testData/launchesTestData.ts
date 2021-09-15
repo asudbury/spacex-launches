@@ -1,4 +1,4 @@
-export const launchesTestData = [
+const launchesTestData = [
     {
       "flight_number": 1,
       "mission_name": "FalconSat",
@@ -21,14 +21,14 @@ export const launchesTestData = [
             {
               "core_serial": "Merlin1A",
               "flight": 1,
-              "block": null,
+              "block": undefined,
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -51,19 +51,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
                 "periapsis_km": 400,
                 "apoapsis_km": 500,
                 "inclination_deg": 39,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -72,12 +72,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -94,17 +94,17 @@ export const launchesTestData = [
       "launch_success": false,
       "launch_failure_details": {
         "time": 33,
-        "altitude": null,
+        "altitude": undefined,
         "reason": "merlin engine failure"
       },
       "links": {
         "mission_patch": "https://images2.imgbox.com/40/e3/GypSkayF_o.png",
         "mission_patch_small": "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html",
         "wikipedia": "https://en.wikipedia.org/wiki/DemoSat",
         "video_link": "https://www.youtube.com/watch?v=0a_00nJ_Y88",
@@ -117,7 +117,7 @@ export const launchesTestData = [
       "timeline": {
         "webcast_liftoff": 54
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 2,
@@ -140,14 +140,14 @@ export const launchesTestData = [
             {
               "core_serial": "Merlin2A",
               "flight": 1,
-              "block": null,
+              "block": undefined,
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -164,25 +164,25 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "SpaceX",
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -191,12 +191,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -219,11 +219,11 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/be/e7/iNqsqVYM_o.png",
         "mission_patch_small": "https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://www.space.com/3590-spacex-falcon-1-rocket-fails-reach-orbit.html",
         "wikipedia": "https://en.wikipedia.org/wiki/DemoSat",
         "video_link": "https://www.youtube.com/watch?v=Lk4zQ2wP-Nc",
@@ -232,12 +232,12 @@ export const launchesTestData = [
       },
       "details": "Successful first stage burn and transition to second stage, maximum altitude 289 km, Premature engine shutdown at T+7 min 30 s, Failed to reach orbit, Failed to recover first stage",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
       "timeline": {
         "webcast_liftoff": 60
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 3,
@@ -260,14 +260,14 @@ export const launchesTestData = [
             {
               "core_serial": "Merlin1C",
               "flight": 1,
-              "block": null,
+              "block": undefined,
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -284,25 +284,25 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "Space Dev",
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -313,27 +313,27 @@ export const launchesTestData = [
                 "ORS"
               ],
               "nationality": "United States",
-              "manufacturer": null,
+              "manufacturer": undefined,
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -342,12 +342,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -370,11 +370,11 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/4b/bd/d8UxLh4q_o.png",
         "mission_patch_small": "https://images2.imgbox.com/3d/86/cnu0pan8_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "http://www.spacex.com/news/2013/02/11/falcon-1-flight-3-mission-summary",
         "wikipedia": "https://en.wikipedia.org/wiki/Trailblazer_(satellite)",
         "video_link": "https://www.youtube.com/watch?v=v0w9p3U8860",
@@ -383,12 +383,12 @@ export const launchesTestData = [
       },
       "details": "Residual stage 1 thrust led to collision between stage 1 and stage 2",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
       "timeline": {
         "webcast_liftoff": 14
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 4,
@@ -411,14 +411,14 @@ export const launchesTestData = [
             {
               "core_serial": "Merlin2C",
               "flight": 1,
-              "block": null,
+              "block": undefined,
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -443,8 +443,8 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "lifespan_years": null,
+                "longitude": undefined,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T02:41:06.000Z",
                 "mean_motion": 14.84904616,
                 "raan": 236.9673,
@@ -464,12 +464,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -487,11 +487,11 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/e0/a7/FNjvKlXW_o.png",
         "mission_patch_small": "https://images2.imgbox.com/e9/c9/T8CfiSYb_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://en.wikipedia.org/wiki/Ratsat",
         "wikipedia": "https://en.wikipedia.org/wiki/Ratsat",
         "video_link": "https://www.youtube.com/watch?v=dLQ2tZEH6G0",
@@ -505,7 +505,7 @@ export const launchesTestData = [
       "timeline": {
         "webcast_liftoff": 5
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 5,
@@ -528,14 +528,14 @@ export const launchesTestData = [
             {
               "core_serial": "Merlin3C",
               "flight": 1,
-              "block": null,
+              "block": undefined,
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -560,14 +560,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7048.9,
                 "eccentricity": 0.001701,
                 "periapsis_km": 658.775,
                 "apoapsis_km": 682.755,
                 "inclination_deg": 8.9865,
                 "period_min": 98.161,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T12:05:41.000Z",
                 "mean_motion": 14.66968248,
                 "raan": 133.3568,
@@ -581,12 +581,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -604,10 +604,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/8d/fc/0qdZMWWx_o.png",
         "mission_patch_small": "https://images2.imgbox.com/a7/ba/NBZSw3Ho_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/press/2012/12/19/spacexs-falcon-1-successfully-delivers-razaksat-satellite-orbit",
         "article_link": "http://www.spacex.com/news/2013/02/12/falcon-1-flight-5",
         "wikipedia": "https://en.wikipedia.org/wiki/RazakSAT",
@@ -615,14 +615,14 @@ export const launchesTestData = [
         "youtube_id": "yTaIDooc8Og",
         "flickr_images": []
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
       "timeline": {
         "webcast_liftoff": 5
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 6,
@@ -651,10 +651,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -673,20 +673,20 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "SpaceX",
               "payload_type": "Dragon Boilerplate",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6634.458,
                 "eccentricity": 0.0030715,
                 "periapsis_km": 235.945,
                 "apoapsis_km": 276.701,
                 "inclination_deg": 34.5005,
                 "period_min": 89.632,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2010-06-04T20:04:51.000Z",
                 "mean_motion": 16.06552645,
                 "raan": 41.2862,
@@ -696,11 +696,11 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -718,10 +718,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/d6/12/yxne8mMD_o.png",
         "mission_patch_small": "https://images2.imgbox.com/5c/36/gbDKf6Y7_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://forum.nasaspaceflight.com/index.php?action=dlattach;topic=21869.0;attach=230821",
         "article_link": "http://www.spacex.com/news/2013/02/12/falcon-9-flight-1",
         "wikipedia": "https://en.wikipedia.org/wiki/Dragon_Spacecraft_Qualification_Unit",
@@ -729,7 +729,7 @@ export const launchesTestData = [
         "youtube_id": "nxSxgBKlYws",
         "flickr_images": []
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2010-03-13T00:00:00.000Z",
       "static_fire_date_unix": 1268438400,
@@ -751,7 +751,7 @@ export const launchesTestData = [
         "second_stage_ignition": 179,
         "seco-1": 476
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 7,
@@ -780,10 +780,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -803,30 +803,30 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "SpaceX",
               "payload_type": "Dragon 1.0",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6672.063,
                 "eccentricity": 0.0021812,
                 "periapsis_km": 279.375,
                 "apoapsis_km": 308.481,
                 "inclination_deg": 34.5447,
                 "period_min": 90.396,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2010-12-08T15:34:03.000Z",
                 "mean_motion": 15.9298967,
                 "raan": 180.7668,
                 "arg_of_pericenter": 225.2707,
                 "mean_anomaly": 136.6556
               },
-              "mass_returned_kg": null,
-              "mass_returned_lbs": null,
+              "mass_returned_kg": undefined,
+              "mass_returned_lbs": undefined,
               "flight_time_sec": 11940,
-              "cargo_manifest": null
+              "cargo_manifest": undefined
             },
             {
               "payload_id": "Cubesats",
@@ -836,36 +836,36 @@ export const launchesTestData = [
                 "NRO"
               ],
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 0,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "AMERICANCHAMPION"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -883,10 +883,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/00/2f/FhtEd0nB_o.png",
         "mission_patch_small": "https://images2.imgbox.com/d9/3e/FfrN88ry_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/files/downloads/cots1-20101206.pdf",
         "article_link": "https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_1",
@@ -894,7 +894,7 @@ export const launchesTestData = [
         "youtube_id": "cdLITgWKe_0",
         "flickr_images": []
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2010-12-04T00:00:00.000Z",
       "static_fire_date_unix": 1291420800,
@@ -916,7 +916,7 @@ export const launchesTestData = [
         "seco-1": 540,
         "dragon_separation": 575
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 8,
@@ -945,10 +945,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -974,34 +974,34 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6711.684,
                 "eccentricity": 0.0057963,
                 "periapsis_km": 294.646,
                 "apoapsis_km": 372.452,
                 "inclination_deg": 51.6726,
                 "period_min": 91.202,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2012-05-22T09:12:31.000Z",
                 "mean_motion": 15.78904505,
                 "raan": 251.5418,
                 "arg_of_pericenter": 331.7079,
                 "mean_anomaly": 31.2745
               },
-              "mass_returned_kg": null,
-              "mass_returned_lbs": null,
+              "mass_returned_kg": undefined,
+              "mass_returned_lbs": undefined,
               "flight_time_sec": 806400,
-              "cargo_manifest": null
+              "cargo_manifest": undefined
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "AMERICANCHAMPION"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1019,10 +1019,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/2b/8e/MYyHbnd2_o.png",
         "mission_patch_small": "https://images2.imgbox.com/fc/7a/r9ITwL12_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://www.nasa.gov/pdf/649910main_cots2_presskit_051412.pdf",
         "article_link": "https://en.wikipedia.org/wiki/Dragon_C2%2B",
         "wikipedia": "https://en.wikipedia.org/wiki/Dragon_C2%2B",
@@ -1055,7 +1055,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 713,
         "dragon_bay_door_deploy": 8808
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 9,
@@ -1084,10 +1084,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1113,14 +1113,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6643.164,
                 "eccentricity": 0.0092222,
                 "periapsis_km": 203.764,
                 "apoapsis_km": 326.293,
                 "inclination_deg": 51.6539,
                 "period_min": 89.809,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2012-10-08T00:31:33.000Z",
                 "mean_motion": 16.03395683,
                 "raan": 281.4248,
@@ -1146,28 +1146,28 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
                 "inclination_deg": 45,
-                "period_min": null,
+                "period_min": undefined,
                 "lifespan_years": 5,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined
               }
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "AMERICANISLANDER"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1185,10 +1185,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/52/09/eNvilptL_o.png",
         "mission_patch_small": "https://images2.imgbox.com/0b/33/2eLGEejP_o.png",
-        "reddit_campaign": null,
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_campaign": undefined,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://www.nasa.gov/pdf/694166main_SpaceXCRS-1PressKit.pdf",
         "article_link": "https://www.nasa.gov/mission_pages/station/main/spacex-crs1-target.html",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_CRS-1",
@@ -1221,7 +1221,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 10,
@@ -1250,10 +1250,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1279,14 +1279,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6640.79,
                 "eccentricity": 0.0089419,
                 "periapsis_km": 203.274,
                 "apoapsis_km": 322.036,
                 "inclination_deg": 51.6797,
                 "period_min": 89.761,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2013-03-01T20:19:32.000Z",
                 "mean_motion": 16.04255447,
                 "raan": 281.5076,
@@ -1300,13 +1300,13 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "AMERICANISLANDER"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1324,10 +1324,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/ef/39/FyZRYeOh_o.png",
         "mission_patch_small": "https://images2.imgbox.com/1b/b6/Z4oktZeR_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/space/comments/19gm5f/live_coverage_spacex_crs2_launch_to_the_iss/c8nvah4",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://www.nasa.gov/sites/default/files/files/Orb2_PRESS_KIT.pdf",
         "article_link": "https://en.wikipedia.org/wiki/SpaceX_CRS-2",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_CRS-2",
@@ -1360,7 +1360,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 11,
@@ -1390,7 +1390,7 @@ export const launchesTestData = [
               "land_success": false,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1415,7 +1415,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7166.903,
                 "eccentricity": 0.0655306,
                 "periapsis_km": 319.116,
@@ -1436,14 +1436,14 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
         "AMERICANSPIRIT"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1461,10 +1461,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/89/bc/JcbcvuBI_o.png",
         "mission_patch_small": "https://images2.imgbox.com/91/27/VhC1TTYN_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/1ndlay",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://spaceflightnow.com/falcon9/006/UpgradedF9DemoMission_PressKit.pdf",
         "article_link": "http://www.parabolicarc.com/2013/09/29/falcon-9-launch-payloads-orbit-vandenberg/",
         "wikipedia": "https://en.wikipedia.org/wiki/CASSIOPE",
@@ -1496,7 +1496,7 @@ export const launchesTestData = [
         "seco-1": 534,
         "payload_deploy": 855
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 12,
@@ -1525,10 +1525,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1574,12 +1574,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1597,10 +1597,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/b5/1d/46Eo0yuu_o.png",
         "mission_patch_small": "https://images2.imgbox.com/42/b0/vP0sk3d5_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/1ryy1n",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_ses-8launch_presskit.pdf",
         "article_link": "https://www.nasaspaceflight.com/2013/12/spacex-falcon-9-v1-1-milestone-ses-8-launch/",
         "wikipedia": "https://en.wikipedia.org/wiki/SES-8",
@@ -1634,7 +1634,7 @@ export const launchesTestData = [
         "seco-2": 1680,
         "payload_deploy": 1980
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 13,
@@ -1663,10 +1663,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1712,12 +1712,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1735,10 +1735,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/37/c4/jRAk115c_o.png",
         "mission_patch_small": "https://images2.imgbox.com/d8/6d/fnqIBEJh_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/1ujoc0",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_thaicom6_presskit.pdf",
         "article_link": "http://spacenews.com/38959spacex-delivers-thaicom-6-satellite-to-orbit/",
         "wikipedia": "https://en.wikipedia.org/wiki/Thaicom_6",
@@ -1776,7 +1776,7 @@ export const launchesTestData = [
         "seco-2": 1680,
         "payload_deploy": 1860
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 14,
@@ -1808,7 +1808,7 @@ export const launchesTestData = [
               "land_success": true,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1834,14 +1834,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6700.881,
                 "eccentricity": 0.0013819,
                 "periapsis_km": 313.486,
                 "apoapsis_km": 332.006,
                 "inclination_deg": 51.6429,
                 "period_min": 90.982,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2014-04-18T19:40:03.000Z",
                 "mean_motion": 15.82724147,
                 "raan": 34.0918,
@@ -1855,13 +1855,13 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "AMERICANISLANDER"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -1879,10 +1879,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/ff/81/EOWojaSj_o.png",
         "mission_patch_small": "https://images2.imgbox.com/a0/cb/s1h2RuR0_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/22zo8c",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/sites/spacex/files/spacexcrs-3_presskit_042014.pdf",
         "article_link": "https://newatlas.com/crs-3-launch-spacex/31671/",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_CRS-3",
@@ -1922,7 +1922,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 15,
@@ -1954,7 +1954,7 @@ export const launchesTestData = [
               "land_success": true,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -1979,7 +1979,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6641.01,
                 "eccentricity": 0.0090712,
                 "periapsis_km": 202.633,
@@ -2000,12 +2000,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2023,10 +2023,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/4d/ed/CHXoRaSP_o.png",
         "mission_patch_small": "https://images2.imgbox.com/a7/b4/bcMrHMey_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2aany2",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_orbcomm_presskit_final.pdf",
         "article_link": "https://www.orbcomm.com/en/networks/satellite/orbcomm-og2",
         "wikipedia": "https://en.wikipedia.org/wiki/Falcon_9_flight_10",
@@ -2065,7 +2065,7 @@ export const launchesTestData = [
         "seco-1": 360,
         "payload_deploy": 900
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 16,
@@ -2094,10 +2094,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -2143,12 +2143,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2166,10 +2166,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/5a/ab/8IzvDOzc_o.png",
         "mission_patch_small": "https://images2.imgbox.com/bf/12/oSP2EwNz_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2fenrv",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://spaceflightnow.com/falcon9/011/presskit.pdf",
         "article_link": "http://spacenews.com/41497spacex-launches-first-of-two-satellites-for-asiasat/",
         "wikipedia": "https://en.wikipedia.org/wiki/AsiaSat_8",
@@ -2184,7 +2184,7 @@ export const launchesTestData = [
           "https://farm8.staticflickr.com/7626/16233865484_10d9925b5d_o.jpg"
         ]
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2014-07-31T23:35:15.000Z",
       "static_fire_date_unix": 1406849715,
@@ -2209,7 +2209,7 @@ export const launchesTestData = [
         "seco-2": 1620,
         "payload_deploy": 1920
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 17,
@@ -2238,10 +2238,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -2287,12 +2287,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2310,10 +2310,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/57/6a/upI6gwfq_o.png",
         "mission_patch_small": "https://images2.imgbox.com/6f/c0/D3Owbmpo_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2fenrv",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://www.spaceflightnow.com/falcon9/012/presskit.pdf",
         "article_link": "https://www.space.com/27052-spacex-launches-asiasat6-satellite.html",
         "wikipedia": "https://en.wikipedia.org/wiki/AsiaSat_6",
@@ -2327,7 +2327,7 @@ export const launchesTestData = [
           "https://farm9.staticflickr.com/8637/16855040322_57671ab8eb_o.jpg"
         ]
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2014-08-22T23:51:18.000Z",
       "static_fire_date_unix": 1408751478,
@@ -2352,7 +2352,7 @@ export const launchesTestData = [
         "seco-2": 1620,
         "payload_deploy": 1920
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 18,
@@ -2384,7 +2384,7 @@ export const launchesTestData = [
               "land_success": false,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -2410,14 +2410,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6657.288,
                 "eccentricity": 0.0113888,
                 "periapsis_km": 203.334,
                 "apoapsis_km": 354.971,
                 "inclination_deg": 51.6518,
                 "period_min": 90.095,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2014-09-21T05:48:51.000Z",
                 "mean_motion": 15.98295763,
                 "raan": 344.0345,
@@ -2431,13 +2431,13 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "AMERICANISLANDER"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2455,10 +2455,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/0d/e8/tfdeNslS_o.png",
         "mission_patch_small": "https://images2.imgbox.com/b4/28/cQwcs8qz_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2grxer",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://www.nasa.gov/sites/default/files/files/SpaceX_NASA_CRS-4_PressKit.pdf",
         "article_link": "https://www.nasa.gov/press/2014/september/nasa-cargo-launches-to-space-station-aboard-spacex-resupply-mission-0",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_CRS-4",
@@ -2472,7 +2472,7 @@ export const launchesTestData = [
           "https://farm9.staticflickr.com/8620/16642025217_a6852b9499_o.jpg"
         ]
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2014-09-17T00:00:00.000Z",
       "static_fire_date_unix": 1410912000,
@@ -2497,7 +2497,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 19,
@@ -2555,14 +2555,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6656.902,
                 "eccentricity": 0.0109236,
                 "periapsis_km": 206.049,
                 "apoapsis_km": 351.484,
                 "inclination_deg": 51.6369,
                 "period_min": 90.088,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2015-01-10T09:44:04.000Z",
                 "mean_motion": 15.98433248,
                 "raan": 152.0013,
@@ -2576,7 +2576,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "ELSBETH3",
@@ -2586,7 +2586,7 @@ export const launchesTestData = [
         "NRCQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2604,10 +2604,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/fe/5a/WyQS4MXa_o.png",
         "mission_patch_small": "https://images2.imgbox.com/25/b6/RhNppyL3_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2rrdha",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_nasa_crs-5_presskit.pdf",
         "article_link": "https://spaceflightnow.com/2015/01/10/dragon-successfully-launched-rocket-recovery-demo-crash-lands/",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_CRS-5",
@@ -2649,7 +2649,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 20,
@@ -2679,7 +2679,7 @@ export const launchesTestData = [
               "land_success": true,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -2706,19 +2706,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "heliocentric",
                 "regime": "L1-point",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 5,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -2727,7 +2727,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -2736,7 +2736,7 @@ export const launchesTestData = [
         "GOSEARCHER"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2754,10 +2754,10 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/ec/a0/kTPQRyzt_o.png",
         "mission_patch_small": "https://images2.imgbox.com/63/c5/0OIpD59z_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2vjm9e",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "http://www.spacex.com/press/2015/02/11/dscovr-launch-update",
         "article_link": "https://spaceflightnow.com/2015/02/12/space-weather-observatory-blasts-off-after-17-year-wait/",
         "wikipedia": "https://en.wikipedia.org/wiki/Deep_Space_Climate_Observatory",
@@ -2783,7 +2783,7 @@ export const launchesTestData = [
       "timeline": {
         "webcast_launch": 960
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 21,
@@ -2813,10 +2813,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -2895,12 +2895,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -2918,9 +2918,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/78/82/H9gthFmK_o.png",
         "mission_patch_small": "https://images2.imgbox.com/20/10/sqPgZfej_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "http://www.reddit.com/r/spacex/comments/2x81fc",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/2xmumx",
         "presskit": "http://www.spacex.com/sites/spacex/files/abs-eutelsatfactsheet.pdf",
         "article_link": "https://www.space.com/28702-spacex-rocket-launches-satellites-video.html",
@@ -2962,7 +2962,7 @@ export const launchesTestData = [
         "payload_deploy_1": 1800,
         "payload_deploy_2": 2100
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 22,
@@ -3020,14 +3020,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6661.265,
                 "eccentricity": 0.0116467,
                 "periapsis_km": 205.548,
                 "apoapsis_km": 360.711,
                 "inclination_deg": 51.6488,
                 "period_min": 90.176,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2015-04-14T20:35:14.000Z",
                 "mean_motion": 15.96863068,
                 "raan": 40.8878,
@@ -3041,7 +3041,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "ELSBETH3",
@@ -3058,7 +3058,7 @@ export const launchesTestData = [
         "capsule": false
       },
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "launch_site": {
         "site_id": "ccafs_slc_40",
@@ -3069,9 +3069,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/e4/9f/GRP89UBo_o.png",
         "mission_patch_small": "https://images2.imgbox.com/3d/55/kbVulokl_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/32jnyd",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/32lw5y",
         "presskit": "https://www.nasa.gov/sites/default/files/files/SpaceX_NASA_CRS-6_PressKit.pdf",
         "article_link": "https://spaceflightnow.com/2015/04/14/falcon-9-successfully-launches-descends-to-off-balance-landing/",
@@ -3111,7 +3111,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 23,
@@ -3138,10 +3138,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -3187,7 +3187,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -3199,7 +3199,7 @@ export const launchesTestData = [
         "capsule": false
       },
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "launch_site": {
         "site_id": "ccafs_slc_40",
@@ -3210,9 +3210,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/7a/99/RLkM4sNw_o.png",
         "mission_patch_small": "https://images2.imgbox.com/c9/35/VNpbqUPb_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/33xqcj",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/3439s3",
         "presskit": "http://www.spacex.com/sites/spacex/files/spacexthalesfactsheet_final.pdf",
         "article_link": "https://spaceflightnow.com/2015/04/28/falcon-9-rocket-powers-into-space-with-satellite-for-turkmenistan/",
@@ -3228,7 +3228,7 @@ export const launchesTestData = [
           "https://farm8.staticflickr.com/7735/16704192574_e3a0a6fac2_o.jpg"
         ]
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2015-04-22T11:11:00.000Z",
       "static_fire_date_unix": 1429701060,
@@ -3253,7 +3253,7 @@ export const launchesTestData = [
         "seco-2": 1620,
         "payload_deploy": 1920
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 24,
@@ -3282,7 +3282,7 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": true,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": true,
               "landing_type": "ASDS",
               "landing_vehicle": "OCISLY"
@@ -3309,28 +3309,28 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
                 "inclination_deg": 51.6,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               },
-              "mass_returned_kg": null,
-              "mass_returned_lbs": null,
+              "mass_returned_kg": undefined,
+              "mass_returned_lbs": undefined,
               "flight_time_sec": 139,
               "cargo_manifest": "https://www.nasa.gov/sites/default/files/atoms/files/spacex_crs-7_mission_overview.pdf"
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "ELSBETH3",
@@ -3345,7 +3345,7 @@ export const launchesTestData = [
         "capsule": false
       },
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "launch_site": {
         "site_id": "ccafs_slc_40",
@@ -3361,9 +3361,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/47/39/stH98Qy1_o.png",
         "mission_patch_small": "https://images2.imgbox.com/d0/22/gyTVYo21_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/3b27hk",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/3berj3",
         "presskit": "https://www.nasa.gov/sites/default/files/atoms/files/spacex_nasa_crs-7_presskit.pdf",
         "article_link": "https://spaceflightnow.com/2015/06/28/falcon-9-rocket-destroyed-in-launch-mishap/",
@@ -3400,7 +3400,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 25,
@@ -3457,7 +3457,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7088.016,
                 "eccentricity": 0.0002432,
                 "periapsis_km": 708.157,
@@ -3478,7 +3478,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -3501,9 +3501,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/65/a5/8iNE9T6Y_o.png",
         "mission_patch_small": "https://images2.imgbox.com/89/e8/5eeThzqZ_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/3xgxh5",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/3xm83h/",
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_orbcomm_press_kit_final2.pdf",
         "article_link": "https://spaceflightnow.com/2015/12/22/round-trip-rocket-flight-gives-spacex-a-trifecta-of-successes/",
@@ -3548,7 +3548,7 @@ export const launchesTestData = [
         "first_stage_landing": 600,
         "payload_deploy": 900
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 26,
@@ -3604,7 +3604,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7715.868,
                 "eccentricity": 0.0007733,
                 "periapsis_km": 1331.766,
@@ -3625,7 +3625,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -3652,9 +3652,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/71/59/j489OwAI_o.png",
         "mission_patch_small": "https://images2.imgbox.com/72/f2/uK9vYzvk_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/417weg",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/41cvdm",
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_jason3_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2016/01/18/satellite-launched-to-measure-motions-of-the-oceans/",
@@ -3698,7 +3698,7 @@ export const launchesTestData = [
         "second_stage_restart": 3300,
         "payload_deploy": 3360
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 27,
@@ -3776,7 +3776,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -3804,9 +3804,9 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/f6/aa/xDtGo0WJ_o.png",
         "mission_patch_small": "https://images2.imgbox.com/fa/ef/4FBvVReu_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/48u4yq",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/472k8c",
         "presskit": "http://www.spacex.com/sites/spacex/files/spacex_ses9_press_kit_final.pdf",
         "article_link": "https://spaceflightnow.com/2016/03/05/tv-broadcasting-satellite-finally-launched-on-falcon-9/",
@@ -3854,7 +3854,7 @@ export const launchesTestData = [
         "seco-2": 1675,
         "payload_deploy": 1884
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 28,
@@ -3912,14 +3912,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6659.721,
                 "eccentricity": 0.0108437,
                 "periapsis_km": 209.37,
                 "apoapsis_km": 353.802,
                 "inclination_deg": 51.6569,
                 "period_min": 90.145,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2016-04-08T21:07:36.000Z",
                 "mean_motion": 15.9741849,
                 "raan": 43.9641,
@@ -3933,7 +3933,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "ELSBETH3",
@@ -3961,7 +3961,7 @@ export const launchesTestData = [
       "links": {
         "mission_patch": "https://images2.imgbox.com/1b/f0/tyNDMK5j_o.png",
         "mission_patch_small": "https://images2.imgbox.com/49/2a/gkSR50yc_o.png",
-        "reddit_campaign": null,
+        "reddit_campaign": undefined,
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/4dtoly",
         "reddit_recovery": "https://www.reddit.com/r/spacex/comments/4ee2zy",
         "reddit_media": "https://www.reddit.com/r/spacex/comments/4dtpxn/",
@@ -4012,7 +4012,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 29,
@@ -4090,7 +4090,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -4164,7 +4164,7 @@ export const launchesTestData = [
         "seco-2": 1646,
         "payload_deploy": 1922
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 30,
@@ -4242,7 +4242,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -4321,7 +4321,7 @@ export const launchesTestData = [
         "seco-2": 1700,
         "payload_deploy": 1916
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 31,
@@ -4413,16 +4413,16 @@ export const launchesTestData = [
                 "reference_system": "geocentric",
                 "regime": "geostationary",
                 "longitude": -116.8,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined
               }
             }
           ]
@@ -4431,7 +4431,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -4507,7 +4507,7 @@ export const launchesTestData = [
         "payload_deploy_1": 1829,
         "payload_deploy_2": 2129
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 32,
@@ -4565,14 +4565,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6657.994,
                 "eccentricity": 0.0113615,
                 "periapsis_km": 204.214,
                 "apoapsis_km": 355.504,
                 "inclination_deg": 51.6593,
                 "period_min": 90.11,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2016-07-18T05:09:49.000Z",
                 "mean_motion": 15.98039801,
                 "raan": 263.3429,
@@ -4586,7 +4586,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "ELSBETH3",
@@ -4666,7 +4666,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8340
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 33,
@@ -4744,7 +4744,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -4816,7 +4816,7 @@ export const launchesTestData = [
         "seco-2": 1652,
         "payload_deploy": 1933
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 34,
@@ -4829,7 +4829,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -4843,7 +4843,7 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": true,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": true,
               "landing_type": "ASDS",
               "landing_vehicle": "OCISLY"
@@ -4870,18 +4870,18 @@ export const launchesTestData = [
                 "reference_system": "geocentric",
                 "regime": "geostationary",
                 "longitude": -4,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
                 "periapsis_km": 35785,
                 "apoapsis_km": 35800,
-                "inclination_deg": null,
-                "period_min": null,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -4890,7 +4890,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -4902,7 +4902,7 @@ export const launchesTestData = [
         "capsule": false
       },
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "launch_site": {
         "site_id": "ccafs_slc_40",
@@ -4919,10 +4919,10 @@ export const launchesTestData = [
         "mission_patch": "https://images2.imgbox.com/eb/28/cg2hkitx_o.png",
         "mission_patch_small": "https://images2.imgbox.com/54/7a/c5XLHIvL_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/4pv7jl",
-        "reddit_launch": null,
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_launch": undefined,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2016/09/01/spacex-rocket-and-israeli-satellite-destroyed-in-launch-pad-explosion/",
         "wikipedia": "https://en.wikipedia.org/wiki/Amos-6",
         "video_link": "https://www.youtube.com/watch?v=_BgJEXQkjNQ",
@@ -4933,8 +4933,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2016-09-01T13:07:00.000Z",
       "static_fire_date_unix": 1472735220,
-      "timeline": null,
-      "crew": null
+      "timeline": undefined,
+      "crew": undefined
     },
     {
       "flight_number": 35,
@@ -5000,7 +5000,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.804,
                 "eccentricity": 0.0002173,
                 "periapsis_km": 776.114,
@@ -5021,7 +5021,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -5103,7 +5103,7 @@ export const launchesTestData = [
         "seco-2": 3154,
         "payload_deploy": 4456
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 36,
@@ -5161,14 +5161,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6657.603,
                 "eccentricity": 0.0115859,
                 "periapsis_km": 202.334,
                 "apoapsis_km": 356.602,
                 "inclination_deg": 51.632,
                 "period_min": 90.102,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2017-02-19T15:02:32.000Z",
                 "mean_motion": 15.98180622,
                 "raan": 264.9784,
@@ -5182,7 +5182,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "NRCQUEST"
@@ -5261,7 +5261,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 37,
@@ -5288,10 +5288,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -5337,7 +5337,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -5362,7 +5362,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/54/f8/0X2hNhNK_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/5n2e10/echostar_23_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/5z8dkm/welcome_to_the_rspacex_echostar23_official_launch/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/5z8if6/rspacex_echostar_23_media_thread_videos_images/",
         "presskit": "http://www.spacex.com/sites/spacex/files/echostarxxiiifinal.pdf",
         "article_link": "http://spacenews.com/spacex-launches-echostar-23/",
@@ -5405,7 +5405,7 @@ export const launchesTestData = [
         "seco-2": 1639,
         "payload_deploy": 2040
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 38,
@@ -5483,7 +5483,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -5566,7 +5566,7 @@ export const launchesTestData = [
         "seco-2": 1642,
         "payload_deploy": 1923
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 39,
@@ -5613,25 +5613,25 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "Boeing",
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
                 "inclination_deg": 50,
-                "period_min": null,
+                "period_min": undefined,
                 "lifespan_years": 10,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -5640,7 +5640,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -5654,7 +5654,7 @@ export const launchesTestData = [
         "capsule": false
       },
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "launch_site": {
         "site_id": "ksc_lc_39a",
@@ -5667,7 +5667,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/0d/06/aNPEVF72_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/601ykx",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/68bn8y/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/68bpii",
         "presskit": "http://www.spacex.com/sites/spacex/files/nrol76presskit.pdf",
         "article_link": "https://techcrunch.com/2017/05/01/spacex-successfully-launches-nrol-76-u-s-military-satellite/",
@@ -5712,7 +5712,7 @@ export const launchesTestData = [
         "fairing_deploy": 168,
         "first_stage_landing": 526
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 40,
@@ -5739,10 +5739,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -5788,7 +5788,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -5813,7 +5813,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/82/d6/SCoNa79H_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/64kguj/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/6b88hz/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/6bcf8j/",
         "presskit": "https://www.spacex.com/sites/spacex/files/inmarsat5f4presskit_final.pdf",
         "article_link": "https://www.space.com/36852-spacex-launches-inmarsat-5-f4-satellite.html",
@@ -5856,7 +5856,7 @@ export const launchesTestData = [
         "seco-2": 1675,
         "payload_deploy": 1908
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 41,
@@ -5914,14 +5914,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6657.963,
                 "eccentricity": 0.0113366,
                 "periapsis_km": 204.35,
                 "apoapsis_km": 355.307,
                 "inclination_deg": 51.639,
                 "period_min": 90.109,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2017-06-03T23:01:19.000Z",
                 "mean_motion": 15.9805087,
                 "raan": 104.5218,
@@ -5935,7 +5935,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "NRCQUEST"
@@ -5961,7 +5961,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/e8/33/RV791zv9_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/68ul58/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/6ektkt/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/6emlzr/",
         "presskit": "http://www.spacex.com/sites/spacex/files/crs11presskit.pdf",
         "article_link": "https://spaceflightnow.com/2017/06/03/reused-dragon-cargo-capsule-launched-on-journey-to-space-station/",
@@ -6010,7 +6010,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 720,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 42,
@@ -6086,7 +6086,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -6161,7 +6161,7 @@ export const launchesTestData = [
         "seco-2": 1693,
         "payload_deploy": 2095
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 43,
@@ -6227,7 +6227,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.796,
                 "eccentricity": 0.0002534,
                 "periapsis_km": 775.848,
@@ -6248,7 +6248,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -6323,7 +6323,7 @@ export const launchesTestData = [
         "seco-2": 3129,
         "payload_deploy": 3430
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 44,
@@ -6350,10 +6350,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -6399,7 +6399,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -6411,7 +6411,7 @@ export const launchesTestData = [
         "capsule": false
       },
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "launch_site": {
         "site_id": "ksc_lc_39a",
@@ -6424,7 +6424,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/ab/6f/3l4ib2QW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6fw4yy/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/6kt2re/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/6kt3fe/",
         "presskit": "http://www.spacex.com/sites/spacex/files/intelsat35epresskit.pdf",
         "article_link": "https://spaceflightnow.com/2017/07/06/spacex-delivers-for-intelsat-on-heavyweight-falcon-9-mission/",
@@ -6467,7 +6467,7 @@ export const launchesTestData = [
         "seco-2": 1630,
         "payload_deploy": 1921
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 45,
@@ -6525,14 +6525,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6658.399,
                 "eccentricity": 0.0116656,
                 "periapsis_km": 202.59,
                 "apoapsis_km": 357.938,
                 "inclination_deg": 51.6336,
                 "period_min": 90.118,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2017-08-14T16:54:33.000Z",
                 "mean_motion": 15.97894031,
                 "raan": 106.677,
@@ -6546,7 +6546,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "NRCQUEST"
@@ -6572,7 +6572,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/4e/c6/M7X1WGKk_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6mrga2/crs12_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/6tfcio/welcome_to_the_rspacex_crs12_official_launch/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/6th2nf/rspacex_crs12_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/crs12presskit.pdf",
         "article_link": "https://spaceflightnow.com/2017/08/17/photos-falcon-9-rocket-soars-into-space-lands-back-at-cape-canaveral/",
@@ -6619,7 +6619,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 46,
@@ -6674,7 +6674,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7101.019,
                 "eccentricity": 0.0011995,
                 "periapsis_km": 714.366,
@@ -6695,7 +6695,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -6766,7 +6766,7 @@ export const launchesTestData = [
         "first_stage_landing": 647,
         "payload_deploy": 678
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 47,
@@ -6819,19 +6819,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
                 "inclination_deg": 54,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -6840,7 +6840,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -6868,7 +6868,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/bb/c2/CpO3VtI7_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/6u6q1t/x37b_otv5_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/6ygmf1/rspacex_x37b_otv5_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/6yih4g/rspacex_x37b_otv5_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/otv5_presskit.pdf",
         "article_link": "https://spaceflightnow.com/2017/09/07/spacex-beats-hurricane-with-smooth-launch-of-militarys-x-37b-spaceplane/",
@@ -6910,7 +6910,7 @@ export const launchesTestData = [
         "first_stage_entry_burn": 394,
         "first_stage_landing": 494
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 48,
@@ -6976,7 +6976,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.808,
                 "eccentricity": 0.0002442,
                 "periapsis_km": 775.925,
@@ -6997,7 +6997,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -7071,7 +7071,7 @@ export const launchesTestData = [
         "seco-2": 3125,
         "payload_deploy": 3426
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 49,
@@ -7150,7 +7150,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -7224,7 +7224,7 @@ export const launchesTestData = [
         "seco-2": 1678,
         "payload_deploy": 2167
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 50,
@@ -7309,7 +7309,7 @@ export const launchesTestData = [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -7329,7 +7329,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/02/51/7NLaBm8c_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/73ttkd/koreasat_5a_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/79iuvb/rspacex_koreasat_5a_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/79lmdu/rspacex_koreasat5a_media_thread_videos_images/",
         "presskit": "http://www.spacex.com/sites/spacex/files/koreasat5apresskit.pdf",
         "article_link": "https://spaceflightnow.com/2017/10/30/spacex-launches-and-lands-third-rocket-in-three-weeks/",
@@ -7373,7 +7373,7 @@ export const launchesTestData = [
         "seco-2": 1672,
         "payload_deploy": 2138
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 51,
@@ -7431,14 +7431,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6657.799,
                 "eccentricity": 0.0114283,
                 "periapsis_km": 203.576,
                 "apoapsis_km": 355.751,
                 "inclination_deg": 51.6387,
                 "period_min": 90.106,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2017-12-15T16:01:04.000Z",
                 "mean_motion": 15.98110186,
                 "raan": 213.9231,
@@ -7452,7 +7452,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "NRCQUEST"
@@ -7478,7 +7478,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/ea/12/8vVzlOeL_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7bxg5a/crs13_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7j725w/rspacex_crs13_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/7j6oxz/rspacex_crs13_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/crs13presskit12_11.pdf",
         "article_link": "https://spaceflightnow.com/2017/12/15/spacexs-50th-falcon-rocket-launch-kicks-off-station-resupply-mission/",
@@ -7522,7 +7522,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 52,
@@ -7554,7 +7554,7 @@ export const launchesTestData = [
               "land_success": true,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -7588,7 +7588,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.798,
                 "eccentricity": 0.0001832,
                 "periapsis_km": 776.353,
@@ -7609,7 +7609,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -7636,7 +7636,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/cb/4b/n6GTX4PI_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7cgts7/iridium_next_constellation_mission_4_launch/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7li8y2/rspacex_iridium_next_4_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/7litv2/rspacex_iridium4_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/iridium4presskit.pdf",
         "article_link": "https://spaceflightnow.com/2017/12/23/spacex-launch-dazzles-delivering-10-more-satellites-for-iridium/",
@@ -7678,7 +7678,7 @@ export const launchesTestData = [
         "seco-2": 3125,
         "payload_deploy": 3425
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 53,
@@ -7725,25 +7725,25 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "Northrop Grumman",
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "LEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
                 "inclination_deg": 51,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -7752,7 +7752,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -7777,7 +7777,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/e8/30/yMNPvCci_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7895bo/zuma_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7oqjf0/rspacex_zuma_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/7orksl/rspacex_zuma_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/zumapresskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/01/08/spacex-kicks-off-ambitious-2018-schedule-with-launch-for-u-s-government/",
@@ -7817,7 +7817,7 @@ export const launchesTestData = [
         "first_stage_entry_burn": 369,
         "first_stage_landing": 471
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 54,
@@ -7849,7 +7849,7 @@ export const launchesTestData = [
               "land_success": true,
               "landing_intent": true,
               "landing_type": "Ocean",
-              "landing_vehicle": null
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -7875,18 +7875,18 @@ export const launchesTestData = [
                 "reference_system": "geocentric",
                 "regime": "geostationary",
                 "longitude": 21.5,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -7895,14 +7895,14 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
         "GOQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -7922,7 +7922,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/95/ec/FoFpPft0_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7olw86/govsat1_ses16_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7tvtbh/rspacex_govsat1_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/7tzzwy/rspacex_govsat1_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/govsat1presskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/01/31/spacex-rocket-flies-on-60th-anniversary-of-first-u-s-satellite-launch/",
@@ -7963,7 +7963,7 @@ export const launchesTestData = [
         "seco-2": 1668,
         "payload_deploy": 1939
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 55,
@@ -8041,8 +8041,8 @@ export const launchesTestData = [
               "orbit": "HCO",
               "orbit_params": {
                 "reference_system": "heliocentric",
-                "regime": null,
-                "longitude": null,
+                "regime": undefined,
+                "longitude": undefined,
                 "semi_major_axis_km": 9943.766,
                 "eccentricity": 0.3404246,
                 "periapsis_km": 180.528,
@@ -8063,7 +8063,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -8092,7 +8092,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/22/5f/jAAULKc3_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7hjp03/falcon_heavy_demo_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7vg63x/rspacex_falcon_heavy_test_flight_official_launch/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/7vimtm/rspacex_falcon_heavy_test_flight_media_thread/",
         "presskit": "http://www.spacex.com/sites/spacex/files/falconheavypresskit_v1.pdf",
         "article_link": "https://spaceflightnow.com/2018/02/07/spacex-debuts-worlds-most-powerful-rocket-sends-tesla-toward-the-asteroid-belt/",
@@ -8156,7 +8156,7 @@ export const launchesTestData = [
         "second_stage_restart": 1702,
         "seco-2": 1732
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 56,
@@ -8183,10 +8183,10 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": false,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -8211,7 +8211,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6886.532,
                 "eccentricity": 0.0001774,
                 "periapsis_km": 507.176,
@@ -8245,7 +8245,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6543.402,
                 "eccentricity": 0.0015282,
                 "periapsis_km": 155.268,
@@ -8293,7 +8293,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/f9/05/I9duWQ6v_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7qnflk/paz_microsat2a_2b_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7y0grt/rspacex_paz_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/7zdvop/rspacex_paz_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/paz_press_kit_2.21.pdf",
         "article_link": "https://spaceflightnow.com/2018/02/22/recycled-spacex-rocket-boosts-paz-radar-satellite-first-starlink-testbeds-into-orbit/",
@@ -8332,7 +8332,7 @@ export const launchesTestData = [
         "seco-1": 538,
         "payload_deploy": 658
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 57,
@@ -8359,10 +8359,10 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": true,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -8408,12 +8408,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -8433,7 +8433,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/87/5d/ZDr6l98A_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/7r5pyn/hispasat_30w6_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/7r5pyn/hispasat_30w6_launch_campaign_thread/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/825asx/rspacex_hispasat_30w6_media_thread_videos_images/",
         "presskit": "http://www.spacex.com/sites/spacex/files/hispasat30w6_presskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/03/06/hefty-hispasat-satellite-rides-spacex-rocket-into-orbit/",
@@ -8474,7 +8474,7 @@ export const launchesTestData = [
         "seco-2": 1653,
         "payload_deploy": 1971
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 58,
@@ -8503,10 +8503,10 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": true,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -8540,7 +8540,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.806,
                 "eccentricity": 0.0002262,
                 "periapsis_km": 776.052,
@@ -8588,7 +8588,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/2f/36/Bn1RX3aO_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/82njj5/iridium_next_constellation_mission_5_launch/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/88184i/rspacex_iridium_next_5_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/88114l/rspacex_iridium5_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/iridium-5_press_kit_2018.pdf",
         "article_link": "https://spaceflightnow.com/2018/03/30/iridium-messaging-network-gets-another-boost-from-spacex/",
@@ -8630,7 +8630,7 @@ export const launchesTestData = [
         "seco-2": 3136,
         "payload_deploy": 3436
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 59,
@@ -8659,10 +8659,10 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": true,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -8688,14 +8688,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6658.324,
                 "eccentricity": 0.011476,
                 "periapsis_km": 203.778,
                 "apoapsis_km": 356.6,
                 "inclination_deg": 51.6437,
                 "period_min": 90.117,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2018-04-02T20:54:48.000Z",
                 "mean_motion": 15.97921108,
                 "raan": 34.3281,
@@ -8709,7 +8709,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "NRCQUEST"
@@ -8735,7 +8735,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/e7/bf/WzMju1cP_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/82op7a/crs14_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/88s8a7/rspacex_crs14_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/88l52i/rspacex_crs14_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/crs-14presskit2018.pdf",
         "article_link": "https://spaceflightnow.com/2018/04/02/spacex-supply-ship-departs-cape-canaveral-for-space-station/",
@@ -8773,7 +8773,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 60,
@@ -8828,7 +8828,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "highly-elliptical",
                 "regime": "high-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 249872.461,
                 "eccentricity": 0.6429404,
                 "periapsis_km": 82841.226,
@@ -8849,7 +8849,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -8879,7 +8879,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/ca/54/EEGqRRto_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/88l46q/tess_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/8cm61o/rspacex_tess_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/8cmzop/rspacex_tess_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/tesspresskitfinal417.pdf",
         "article_link": "https://spaceflightnow.com/2018/04/19/all-sky-surveyor-launched-from-cape-canaveral-on-the-hunt-for-exoplanets/",
@@ -8922,7 +8922,7 @@ export const launchesTestData = [
         "seco-2": 2643,
         "payload_deploy": 2975
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 61,
@@ -8998,7 +8998,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -9074,7 +9074,7 @@ export const launchesTestData = [
         "seco-2": 1717,
         "payload_deploy": 2018
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 62,
@@ -9103,10 +9103,10 @@ export const launchesTestData = [
               "gridfins": true,
               "legs": false,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -9135,7 +9135,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7125.824,
                 "eccentricity": 0.0002475,
                 "periapsis_km": 745.925,
@@ -9168,7 +9168,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6871.498,
                 "eccentricity": 0.0014529,
                 "periapsis_km": 483.38,
@@ -9216,7 +9216,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/f5/da/hz3r2Lni_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/8ffsgl/iridium6_gracefo_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/8kyk5a/rspacex_iridium_next_6_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/8l9tfz/rspacex_iridium6gracefo_media_thread_videos/",
         "presskit": "http://www.spacex.com/sites/spacex/files/iridium6presskit2018521.pdf",
         "article_link": "https://spaceflightnow.com/2018/05/22/rideshare-launch-by-spacex-serves-commercial-and-scientific-customers/",
@@ -9259,7 +9259,7 @@ export const launchesTestData = [
         "seco-2": 3423,
         "payload_deploy_2": 3948
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 63,
@@ -9288,10 +9288,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -9337,7 +9337,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -9364,7 +9364,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/4b/b9/oS8ezl6V_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/8jv0ed/ses12_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/8o9woj/rspacex_ses12_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/8oa3k4/rspacex_ses12_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/ses-12missionpress_kit_6.2.18.pdf",
         "article_link": "https://spaceflightnow.com/2018/06/04/multi-mission-telecom-craft-launched-by-spacex-for-ses/",
@@ -9405,7 +9405,7 @@ export const launchesTestData = [
         "seco-2": 1633,
         "payload_deploy": 1934
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 64,
@@ -9434,10 +9434,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -9463,14 +9463,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6685.069,
                 "eccentricity": 0.0119429,
                 "periapsis_km": 227.094,
                 "apoapsis_km": 386.773,
                 "inclination_deg": 51.6352,
                 "period_min": 90.66,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2018-06-29T11:28:11.000Z",
                 "mean_motion": 15.88341598,
                 "raan": 317.9412,
@@ -9484,7 +9484,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "NRCQUEST"
@@ -9510,7 +9510,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/11/ec/xng5hAXN_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/8pua1m/crs15_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/8ugo3l/rspacex_crs15_official_launch_discussion_updates",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/8ujcwo/rspacex_crs15_media_thread_videos_images_gifs/",
         "presskit": "http://www.spacex.com/sites/spacex/files/crs15presskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/06/29/spacex-launches-ai-enabled-robot-companion-vegetation-monitor-to-space-station/",
@@ -9551,7 +9551,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 65,
@@ -9629,7 +9629,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -9659,7 +9659,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/12/7c/NiniYxoh_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/8w19yg/telstar_19v_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/90p1a6/rspacex_telstar_19v_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/90oxrr/rspacex_telstar_19v_media_thread_videos_images/",
         "presskit": "http://www.spacex.com/sites/spacex/files/telstar19vantagepresskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/07/22/spacex-delivers-for-telesat-with-successful-early-morning-launch/",
@@ -9703,7 +9703,7 @@ export const launchesTestData = [
         "seco-2": 1659,
         "payload_deploy": 1960
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 66,
@@ -9740,7 +9740,7 @@ export const launchesTestData = [
           ]
         },
         "second_stage": {
-          "block": null,
+          "block": undefined,
           "payloads": [
             {
               "payload_id": "Iridium NEXT 7",
@@ -9769,7 +9769,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.805,
                 "eccentricity": 0.0001793,
                 "periapsis_km": 776.387,
@@ -9820,7 +9820,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/37/63/NE4EISfK_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/8v4wcm/iridium_next_constellation_mission_7_launch/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/91i1ru/rspacex_iridium_next_7_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/91gx44/rspacex_iridium_next_constellation_mission_7/",
         "presskit": "http://www.spacex.com/sites/spacex/files/iridium7_press_kit_7_24.pdf",
         "article_link": "https://spaceflightnow.com/2018/07/25/spacexs-second-launch-in-three-days-lofts-10-more-iridium-satellites/",
@@ -9862,7 +9862,7 @@ export const launchesTestData = [
         "seco-2": 3097,
         "payload_deploy": 3398
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 67,
@@ -9938,7 +9938,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -9946,7 +9946,7 @@ export const launchesTestData = [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -9966,7 +9966,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/a7/ec/sbwePzVD_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/91gwfg/merah_putih_telkom4_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/9539nr/rspacex_merah_putih_telkom4_official_launch/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/94zr0b/rspacex_merah_putih_media_thread_videos_images/",
         "presskit": "https://www.spacex.com/sites/spacex/files/merahputihpresskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/08/07/indonesian-communications-satellite-deployed-in-orbit-by-spacex/",
@@ -10010,7 +10010,7 @@ export const launchesTestData = [
         "seco-2": 1633,
         "payload_deploy": 1913
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 68,
@@ -10088,7 +10088,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -10160,7 +10160,7 @@ export const launchesTestData = [
         "seco-2": 1620,
         "payload_deploy": 1921
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 69,
@@ -10215,7 +10215,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7000.706,
                 "eccentricity": 0.000138,
                 "periapsis_km": 621.605,
@@ -10236,7 +10236,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
@@ -10261,7 +10261,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/ae/11/H85gskPQ_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/9fwj9o/saocom_1a_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/9lazvr/rspacex_saocom_1a_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/9m3ly5/rspacex_saocom_1a_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/saocom1apresskit.pdf",
         "article_link": "https://spaceflightnow.com/2018/10/08/spacex-aces-first-rocket-landing-in-california-after-launching-argentine-satellite/",
@@ -10305,7 +10305,7 @@ export const launchesTestData = [
         "seco-1": 607,
         "payload_deploy": 757
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 70,
@@ -10381,7 +10381,7 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -10456,7 +10456,7 @@ export const launchesTestData = [
         "seco-2": 1649,
         "payload_deploy": 1969
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 71,
@@ -10516,14 +10516,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6959.985,
                 "eccentricity": 0.0013249,
                 "periapsis_km": 572.629,
                 "apoapsis_km": 591.072,
                 "inclination_deg": 97.6882,
                 "period_min": 96.31,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T15:26:54.000Z",
                 "mean_motion": 14.95168836,
                 "raan": 63.7992,
@@ -10612,7 +10612,7 @@ export const launchesTestData = [
         "seco-1": 601,
         "payload_deploy": 827
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 72,
@@ -10670,14 +10670,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6783.903,
                 "eccentricity": 0.0002416,
                 "periapsis_km": 404.129,
                 "apoapsis_km": 407.407,
                 "inclination_deg": 51.6425,
                 "period_min": 92.678,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2019-01-13T14:04:57.000Z",
                 "mean_motion": 15.53757701,
                 "raan": 50.2106,
@@ -10691,7 +10691,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "GOQUEST"
@@ -10760,7 +10760,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 660,
         "dragon_bay_door_deploy": 8400
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 73,
@@ -10787,10 +10787,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": false,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -10815,7 +10815,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "semi-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 26559.635,
                 "eccentricity": 0.0010356,
                 "periapsis_km": 20153.994,
@@ -10836,12 +10836,12 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -10861,7 +10861,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/b3/24/vKUtLIu9_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/a4516o/gps_iii2_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/a71wyn/rspacex_gps_iii2_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/a73kz5/rspacex_gps_iii2_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/gps_iii_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2018/12/23/spacex-closes-out-year-with-successful-gps-satellite-launch/",
@@ -10902,7 +10902,7 @@ export const launchesTestData = [
         "seco-2": 4177,
         "payload_deploy": 6977
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 74,
@@ -10968,7 +10968,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7155.803,
                 "eccentricity": 0.0001371,
                 "periapsis_km": 776.687,
@@ -10988,8 +10988,8 @@ export const launchesTestData = [
         "fairings": {
           "reused": false,
           "recovery_attempt": false,
-          "recovered": null,
-          "ship": null
+          "recovered": undefined,
+          "ship": undefined
         }
       },
       "ships": [
@@ -11063,7 +11063,7 @@ export const launchesTestData = [
         "seco-2": 3111,
         "payload_deploy": 3412
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 75,
@@ -11149,19 +11149,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "geostationary",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -11182,7 +11182,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "highly-elliptical",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 210769.268,
                 "eccentricity": 0.9637541,
                 "periapsis_km": 1261.386,
@@ -11204,14 +11204,14 @@ export const launchesTestData = [
           "reused": false,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -11276,7 +11276,7 @@ export const launchesTestData = [
         "payload_deploy_1": 2019,
         "payload_deploy_2": 2678
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 76,
@@ -11334,28 +11334,28 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6781.274,
                 "eccentricity": 0.0012936,
                 "periapsis_km": 394.367,
                 "apoapsis_km": 411.911,
                 "inclination_deg": 51.6381,
                 "period_min": 92.624,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2019-03-08T08:52:08.000Z",
                 "mean_motion": 15.54661212,
                 "raan": 142.4692,
                 "arg_of_pericenter": 169.6921,
                 "mean_anomaly": 292.6127
               },
-              "mass_returned_kg": null,
-              "mass_returned_lbs": null,
+              "mass_returned_kg": undefined,
+              "mass_returned_lbs": undefined,
               "flight_time_sec": 539765,
-              "cargo_manifest": null
+              "cargo_manifest": undefined
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "OCISLY"
@@ -11428,7 +11428,7 @@ export const launchesTestData = [
         "first_stage_landing": 592,
         "dragon_separation": 660
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 77,
@@ -11612,7 +11612,7 @@ export const launchesTestData = [
         "seco-2": 1740,
         "payload_deploy": 2042
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 78,
@@ -11670,14 +11670,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6784.509,
                 "eccentricity": 0.0015208,
                 "periapsis_km": 396.056,
                 "apoapsis_km": 416.692,
                 "inclination_deg": 51.6386,
                 "period_min": 92.69,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2019-06-03T18:56:35.000Z",
                 "mean_motion": 15.53549418,
                 "raan": 67.8039,
@@ -11691,7 +11691,7 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "OCISLY",
@@ -11763,7 +11763,7 @@ export const launchesTestData = [
         "dragon_solar_deploy": 728,
         "dragon_bay_door_deploy": 8340
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 79,
@@ -11877,14 +11877,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6525.788,
                 "eccentricity": 0.0009041,
                 "periapsis_km": 141.753,
                 "apoapsis_km": 153.553,
                 "inclination_deg": 52.9736,
                 "period_min": 87.439,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-10-01T07:31:19.000Z",
                 "mean_motion": 16.46847225,
                 "raan": 36.3928,
@@ -11909,7 +11909,7 @@ export const launchesTestData = [
         "GONAVIGATOR"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -11972,7 +11972,7 @@ export const launchesTestData = [
         "seco-2": 2774,
         "payload_deploy": 3734
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 80,
@@ -12029,14 +12029,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6967.988,
                 "eccentricity": 0.0001641,
                 "periapsis_km": 588.71,
                 "apoapsis_km": 590.997,
                 "inclination_deg": 97.7594,
                 "period_min": 96.476,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T08:02:54.000Z",
                 "mean_motion": 14.92593677,
                 "raan": 0.4144,
@@ -12049,13 +12049,13 @@ export const launchesTestData = [
         "fairings": {
           "reused": false,
           "recovery_attempt": false,
-          "recovered": null,
-          "ship": null
+          "recovered": undefined,
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -12075,8 +12075,8 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/4e/dd/qsIUVh1j_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/buq487/radarsat_constellation_launch_campaign_thread",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/byp69f/rspacex_radarsat_constellation_official_launch",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://www.spacex.com/sites/spacex/files/radarsat_constellation_mission_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2019/06/12/three-canadian-radar-surveillance-satellites-ride-spacex-rocket-into-orbit/",
         "wikipedia": "https://en.wikipedia.org/wiki/RADARSAT_Constellation",
@@ -12120,7 +12120,7 @@ export const launchesTestData = [
         "seco-2": 3012,
         "payload_deploy": 3283
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 81,
@@ -12199,14 +12199,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "medium-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 15397.815,
                 "eccentricity": 0.197361,
                 "periapsis_km": 5980.752,
                 "apoapsis_km": 12058.608,
                 "inclination_deg": 42.3314,
                 "period_min": 316.919,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T07:24:11.000Z",
                 "mean_motion": 4.54374644,
                 "raan": 4.5747,
@@ -12232,19 +12232,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12263,19 +12263,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12296,14 +12296,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6765.229,
                 "eccentricity": 0.0159811,
                 "periapsis_km": 278.978,
                 "apoapsis_km": 495.21,
                 "inclination_deg": 28.5106,
                 "period_min": 92.296,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T11:10:10.000Z",
                 "mean_motion": 15.60195301,
                 "raan": 126.5152,
@@ -12329,14 +12329,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7094.381,
                 "eccentricity": 0.001201,
                 "periapsis_km": 707.725,
                 "apoapsis_km": 724.766,
                 "inclination_deg": 23.9995,
                 "period_min": 99.113,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T01:51:06.000Z",
                 "mean_motion": 14.52884118,
                 "raan": 17.5452,
@@ -12362,14 +12362,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7094.696,
                 "eccentricity": 0.001162,
                 "periapsis_km": 708.317,
                 "apoapsis_km": 724.805,
                 "inclination_deg": 24.0023,
                 "period_min": 99.119,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T18:24:35.000Z",
                 "mean_motion": 14.52787269,
                 "raan": 20.058,
@@ -12395,14 +12395,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7093.074,
                 "eccentricity": 0.0011639,
                 "periapsis_km": 706.683,
                 "apoapsis_km": 723.195,
                 "inclination_deg": 24.0016,
                 "period_min": 99.085,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T03:05:37.000Z",
                 "mean_motion": 14.53285615,
                 "raan": 17.0481,
@@ -12428,19 +12428,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12459,19 +12459,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12490,19 +12490,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12521,19 +12521,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12554,14 +12554,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6918.865,
                 "eccentricity": 0.0346569,
                 "periapsis_km": 300.944,
                 "apoapsis_km": 780.517,
                 "inclination_deg": 28.5246,
                 "period_min": 95.457,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T19:17:27.000Z",
                 "mean_motion": 15.08517649,
                 "raan": 231.9102,
@@ -12585,19 +12585,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12616,19 +12616,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12647,19 +12647,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -12678,19 +12678,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -12710,7 +12710,7 @@ export const launchesTestData = [
         "HOLLYWOOD"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -12730,7 +12730,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/b0/23/BvwaqoS0_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/bw6aa8/stp2_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/c40a29/rspacex_stp2_official_launch_discussion_updates",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/c4ng3a/rspacex_stp2_media_thread_videos_images_gifs",
         "presskit": "https://www.spacex.com/sites/spacex/files/stp-2_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2019/06/25/falcon-heavy-launches-on-military-led-rideshare-mission-boat-catches-fairing",
@@ -12752,7 +12752,7 @@ export const launchesTestData = [
       "static_fire_date_utc": "2019-06-19T21:52:00.000Z",
       "static_fire_date_unix": 1560981120,
       "timeline": {
-        "webcast_liftoff": null,
+        "webcast_liftoff": undefined,
         "go_for_prop_loading": -3180,
         "stage1_rp1_loading": -3000,
         "stage1_lox_loading": -2700,
@@ -12783,7 +12783,7 @@ export const launchesTestData = [
         "seco-3": 7684,
         "seco-4": 12483
       },
-      "crew": null
+      "crew": undefined
     },
     {
       "flight_number": 82,
@@ -12841,14 +12841,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6783.699,
                 "eccentricity": 0.0012921,
                 "periapsis_km": 396.799,
                 "apoapsis_km": 414.329,
                 "inclination_deg": 51.6451,
                 "period_min": 92.674,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2019-08-27T17:12:55.000Z",
                 "mean_motion": 15.53827763,
                 "raan": 6.4496,
@@ -12862,11 +12862,11 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -12886,7 +12886,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/89/54/61VCHZwd_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/c8k6g5/crs18_launch_campaign_thread",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/ch2ml7/rspacex_crs18_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/chbr8i/rspacex_crs18_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/crs-18_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2019/07/25/new-docking-port-spacesuit-and-supplies-en-route-to-space-station/",
@@ -12905,8 +12905,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2019-07-19T15:31:00.000Z",
       "static_fire_date_unix": 1563550260,
-      "timeline": null,
-      "crew": null
+      "timeline": undefined,
+      "crew": undefined
     },
     {
       "flight_number": 83,
@@ -12933,10 +12933,10 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
@@ -12960,18 +12960,18 @@ export const launchesTestData = [
                 "reference_system": "geocentric",
                 "regime": "geostationary",
                 "longitude": 17,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -12988,7 +12988,7 @@ export const launchesTestData = [
         "GONAVIGATOR"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -13008,7 +13008,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/f1/4a/WAkSmKfY_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/cjaawx/amos17_launch_campaign_thread",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/cmedgn/rspacex_amos17_official_launch_discussion_updates",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/cmppne/rspacex_amos17_media_thread_videos_images_gifs",
         "presskit": "https://www.spacex.com/sites/spacex/files/amos-17_mission_press_kit_8_6_2019.pdf",
         "article_link": "https://spaceflightnow.com/2019/08/07/spacex-launches-israeli-owned-telecom-satellite/",
@@ -13028,8 +13028,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2019-08-01T00:00:00.000Z",
       "static_fire_date_unix": 1564617600,
-      "timeline": null,
-      "crew": null
+      "timeline": undefined,
+      "crew": undefined
     },
     {
       "flight_number": 84,
@@ -13143,14 +13143,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6927.893,
                 "eccentricity": 0.0001263,
                 "periapsis_km": 548.883,
                 "apoapsis_km": 550.633,
                 "inclination_deg": 53.0013,
                 "period_min": 95.644,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T18:21:11.000Z",
                 "mean_motion": 15.05569916,
                 "raan": 98.1591,
@@ -13164,7 +13164,7 @@ export const launchesTestData = [
           "reused": true,
           "recovery_attempt": false,
           "recovered": false,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [
@@ -13173,7 +13173,7 @@ export const launchesTestData = [
         "GONAVIGATOR"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -13212,8 +13212,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2019-11-11T12:08:00.000Z",
       "static_fire_date_unix": 1573474080,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2019-11-08T02:42:07.000Z",
       "last_ll_launch_date": "2019-11-30T00:00:00.000Z",
       "last_ll_update": "2019-10-24T21:57:16.000Z",
@@ -13278,14 +13278,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6796.2,
                 "eccentricity": 0.0005159,
                 "periapsis_km": 414.559,
                 "apoapsis_km": 421.571,
                 "inclination_deg": 51.6453,
                 "period_min": 92.93,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-01-06T13:22:06.000Z",
                 "mean_motion": 15.49542542,
                 "raan": 73.183,
@@ -13299,11 +13299,11 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -13343,8 +13343,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2019-11-26T17:04:00.000Z",
       "static_fire_date_unix": 1574787840,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2019-12-05T17:29:48.000Z",
       "last_ll_launch_date": "2019-12-05T17:29:23.000Z",
       "last_ll_update": "2019-12-05T17:29:48.000Z",
@@ -13407,7 +13407,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "geostationary",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 42165.052,
                 "eccentricity": 0.0000538,
                 "periapsis_km": 35784.648,
@@ -13437,7 +13437,7 @@ export const launchesTestData = [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -13474,8 +13474,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2019-12-13T12:34:00.000Z",
       "static_fire_date_unix": 1576240440,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2019-12-17T00:10:17.000Z",
       "last_ll_launch_date": "2019-12-17T00:10:00.000Z",
       "last_ll_update": "2019-12-17T00:10:17.000Z",
@@ -13596,14 +13596,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6927.82,
                 "eccentricity": 0.000214,
                 "periapsis_km": 548.203,
                 "apoapsis_km": 551.168,
                 "inclination_deg": 52.9999,
                 "period_min": 95.643,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T18:39:23.000Z",
                 "mean_motion": 15.05593742,
                 "raan": 258.1016,
@@ -13628,7 +13628,7 @@ export const launchesTestData = [
         "HAWK"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -13665,8 +13665,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-01-04T11:45:00.000Z",
       "static_fire_date_unix": 1578138300,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-01-06T02:12:24.000Z",
       "last_ll_launch_date": "2020-01-07T02:19:00.000Z",
       "last_ll_update": "2020-01-06T02:12:24.000Z",
@@ -13702,15 +13702,15 @@ export const launchesTestData = [
               "gridfins": false,
               "legs": false,
               "reused": true,
-              "land_success": null,
+              "land_success": undefined,
               "landing_intent": false,
-              "landing_type": null,
-              "landing_vehicle": null
+              "landing_type": undefined,
+              "landing_vehicle": undefined
             }
           ]
         },
         "second_stage": {
-          "block": null,
+          "block": undefined,
           "payloads": [
             {
               "payload_id": "Crew Dragon In Flight Abort Test",
@@ -13723,40 +13723,40 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "SpaceX",
               "payload_type": "Crew Dragon",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "SO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sub-orbital",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               },
-              "mass_returned_kg": null,
-              "mass_returned_lbs": null,
-              "flight_time_sec": null,
-              "cargo_manifest": null
+              "mass_returned_kg": undefined,
+              "mass_returned_lbs": undefined,
+              "flight_time_sec": undefined,
+              "cargo_manifest": undefined
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "GOSEARCHER"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -13776,7 +13776,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/4f/d2/kTjuhrb0_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/ek7eny/in_flight_abort_test_launch_campaign_thread",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/eq24ap/rspacex_inflight_abort_test_official_launch",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/eq7pg4/rspacex_inflight_abort_test_media_thread_videos/",
         "presskit": "https://www.spacex.com/sites/spacex/files/in-flight_abort_test_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2020/01/19/spacex-aces-final-major-test-before-first-crew-mission",
@@ -13796,11 +13796,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-01-11T09:42:00.000Z",
       "static_fire_date_unix": 1578735720,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-01-19T11:00:21.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-01-19T14:00:00.000Z",
       "last_wiki_revision": "e2338017-3aaa-11ea-abe3-0ead838797dd",
       "last_wiki_update": "2020-01-19T11:00:21.000Z",
@@ -13918,14 +13918,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6927.86,
                 "eccentricity": 0.0002267,
                 "periapsis_km": 548.154,
                 "apoapsis_km": 551.295,
                 "inclination_deg": 53.0005,
                 "period_min": 95.644,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T19:34:31.000Z",
                 "mean_motion": 15.05580918,
                 "raan": 177.9275,
@@ -13950,7 +13950,7 @@ export const launchesTestData = [
         "HAWK"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -13988,8 +13988,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-01-20T13:17:00.000Z",
       "static_fire_date_unix": 1579526220,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-01-29T14:07:07.000Z",
       "last_ll_launch_date": "2020-01-29T14:06:00.000Z",
       "last_ll_update": "2020-01-29T14:07:07.000Z",
@@ -14049,19 +14049,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -14081,7 +14081,7 @@ export const launchesTestData = [
         "HAWK"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -14119,8 +14119,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-02-14T08:31:00.000Z",
       "static_fire_date_unix": 1581669060,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-02-16T09:14:10.000Z",
       "last_ll_launch_date": "2020-02-17T15:05:55.000Z",
       "last_ll_update": "2020-02-16T09:14:10.000Z",
@@ -14185,14 +14185,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6793.753,
                 "eccentricity": 0.0010224,
                 "periapsis_km": 408.672,
                 "apoapsis_km": 422.564,
                 "inclination_deg": 51.6432,
                 "period_min": 92.88,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-04-07T15:36:40.000Z",
                 "mean_motion": 15.50379704,
                 "raan": 337.5161,
@@ -14206,11 +14206,11 @@ export const launchesTestData = [
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -14230,7 +14230,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/53/22/dh0XSLXO_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/ezn6n0/crs20_launch_campaign_thread",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/fe8pcj/rspacex_crs20_official_launch_discussion_updates/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/fes64p/rspacex_crs20_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/crs-20_mission_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2020/03/07/late-night-launch-of-spacex-cargo-ship-marks-end-of-an-era/",
@@ -14249,8 +14249,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-03-01T10:20:00.000Z",
       "static_fire_date_unix": 1583058000,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-03-07T00:33:24.000Z",
       "last_ll_launch_date": "2020-03-07T04:50:31.000Z",
       "last_ll_update": "2020-03-07T00:33:24.000Z",
@@ -14371,14 +14371,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6927.87,
                 "eccentricity": 0.0001717,
                 "periapsis_km": 548.545,
                 "apoapsis_km": 550.924,
                 "inclination_deg": 53.0006,
                 "period_min": 95.644,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T04:33:47.000Z",
                 "mean_motion": 15.05577615,
                 "raan": 316.2478,
@@ -14399,7 +14399,7 @@ export const launchesTestData = [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -14419,7 +14419,7 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/f8awv0/starlink5_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/fhymy3/rspacex_starlink_5_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/fizrn1/rspacex_starlink5_media_thread_videos_images_gifs/",
         "presskit": "https://www.spacex.com/sites/spacex/files/sixth_starlink_press_kit.pdf",
         "article_link": "https://spaceflightnow.com/2020/03/18/falcon-9-rocket-overcomes-engine-failure-to-deploy-starlink-satellites/",
@@ -14436,8 +14436,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-03-13T18:37:00.000Z",
       "static_fire_date_unix": 1584124620,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-03-18T12:16:46.000Z",
       "last_ll_launch_date": "2020-03-18T12:16:00.000Z",
       "last_ll_update": "2020-03-18T12:16:46.000Z",
@@ -14499,19 +14499,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -14519,7 +14519,7 @@ export const launchesTestData = [
         "fairings": {
           "reused": true,
           "recovery_attempt": false,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSTREE"
         }
       },
@@ -14529,7 +14529,7 @@ export const launchesTestData = [
         "GOMSCHIEF"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -14568,8 +14568,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-04-17T11:48:00.000Z",
       "static_fire_date_unix": 1587687810,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-04-22T17:41:33.000Z",
       "last_ll_launch_date": "2020-04-22T19:30:00.000Z",
       "last_ll_update": "2020-04-22T17:41:33.000Z",
@@ -14634,14 +14634,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6637.784,
                 "eccentricity": 0.0155448,
                 "periapsis_km": 156.466,
                 "apoapsis_km": 362.832,
                 "inclination_deg": 51.6858,
                 "period_min": 89.7,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-08-02T11:41:07.000Z",
                 "mean_motion": 16.05343597,
                 "raan": 119.2669,
@@ -14651,11 +14651,11 @@ export const launchesTestData = [
               "mass_returned_kg": 150,
               "mass_returned_lbs": 330.7,
               "flight_time_sec": 5527500,
-              "cargo_manifest": null
+              "cargo_manifest": undefined
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "OCISLY",
@@ -14664,7 +14664,7 @@ export const launchesTestData = [
         "GONAVIGATOR"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -14710,11 +14710,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-05-22T17:39:00.000Z",
       "static_fire_date_unix": 1590169140,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-05-27T20:18:43.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-05-30T19:22:00.000Z",
       "last_wiki_revision": "42717cfb-a057-11ea-9907-0e24e339ee49",
       "last_wiki_update": "2020-05-27T20:18:43.000Z",
@@ -14832,14 +14832,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6526.082,
                 "eccentricity": 0.0028054,
                 "periapsis_km": 129.639,
                 "apoapsis_km": 166.255,
                 "inclination_deg": 53.0001,
                 "period_min": 87.445,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-07-14T14:23:37.000Z",
                 "mean_motion": 16.46735707,
                 "raan": 319.7129,
@@ -14852,13 +14852,13 @@ export const launchesTestData = [
         "fairings": {
           "reused": false,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSTREE"
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -14878,11 +14878,11 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/gamcbr/starlink7_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/gkfe30/rspacex_starlink_7_official_launch_discussion/",
-        "reddit_recovery": null,
-        "reddit_media": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
         "presskit": "https://spacextimemachine.com/assets/press_kits/185.pdf",
-        "article_link": null,
-        "wikipedia": null,
+        "article_link": undefined,
+        "wikipedia": undefined,
         "video_link": "https://youtu.be/y4xBFHjkUvw",
         "youtube_id": "y4xBFHjkUvw",
         "flickr_images": [
@@ -14894,8 +14894,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-05-13T11:11:00.000Z",
       "static_fire_date_unix": 1589368260,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-06-03T15:45:37.000Z",
       "last_ll_launch_date": "2020-06-04T01:25:00.000Z",
       "last_ll_update": "2020-06-03T15:45:37.000Z",
@@ -14978,14 +14978,14 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6927.858,
                 "eccentricity": 0.000222,
                 "periapsis_km": 548.185,
                 "apoapsis_km": 551.261,
                 "inclination_deg": 53.0002,
                 "period_min": 95.644,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-21T11:08:05.000Z",
                 "mean_motion": 15.05581437,
                 "raan": 145.0095,
@@ -14998,7 +14998,7 @@ export const launchesTestData = [
         "fairings": {
           "reused": true,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSTREE"
         }
       },
@@ -15009,7 +15009,7 @@ export const launchesTestData = [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -15031,7 +15031,7 @@ export const launchesTestData = [
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/h7gqlc/rspacex_starlink_8_official_launch_discussion/",
         "reddit_recovery": "https://www.reddit.com/r/spacex/comments/h8sx6q/starlink8_recovery_thread/",
         "reddit_media": "https://www.reddit.com/r/spacex/comments/h842qk/rspacex_starlink8_media_thread_photographer/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/06/13/starlink-satellite-deployments-continue-with-successful-falcon-9-launch/",
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/8riKQXChPGg",
@@ -15042,13 +15042,13 @@ export const launchesTestData = [
       },
       "details": "This mission will launch the eighth batch of operational Starlink satellites, which are expected to be version 1.0, from SLC-40, Cape Canaveral AFS. It is the ninth Starlink launch overall. The satellites will be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude of 550 km. This mission is expected to include rideshare payloads, SkySats 16-18, on top of the Starlink stack. The booster for this mission is expected to land an ASDS.",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
-      "timeline": null,
-      "crew": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-06-11T04:25:39.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-06-13T09:21:00.000Z",
       "last_wiki_revision": "9a320975-ab9b-11ea-8445-0e30d54c90e7",
       "last_wiki_update": "2020-06-11T04:25:39.000Z",
@@ -15087,7 +15087,7 @@ export const launchesTestData = [
           ]
         },
         "second_stage": {
-          "block": null,
+          "block": undefined,
           "payloads": [
             {
               "payload_id": "GPS III SV03 (Columbus)",
@@ -15103,35 +15103,35 @@ export const launchesTestData = [
               "payload_mass_lbs": 8553.94,
               "orbit": "MEO",
               "orbit_params": {
-                "reference_system": null,
-                "regime": null,
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "reference_system": undefined,
+                "regime": undefined,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
         "fairings": {
-          "reused": null,
+          "reused": undefined,
           "recovery_attempt": true,
           "recovered": true,
-          "ship": null
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -15153,7 +15153,7 @@ export const launchesTestData = [
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/hi5hit/rspacex_gps_iii_sv03_columbus_official_launch/",
         "reddit_recovery": "https://www.reddit.com/r/spacex/comments/hjendd/gps_iii_svo3_recovery_thread/",
         "reddit_media": "https://www.reddit.com/r/spacex/comments/hiq0vd/rspacex_gps_iii_sv03_media_thread_photographer/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/06/30/spacex-launches-its-first-mission-for-u-s-space-force/",
         "wikipedia": "https://en.wikipedia.org/wiki/GPS_Block_III",
         "video_link": "https://youtu.be/6zr0nfG3Xy4",
@@ -15172,11 +15172,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-06-25T09:48:00.000Z",
       "static_fire_date_unix": 1593078480,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-06-30T18:17:12.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-06-30T19:55:00.000Z",
       "last_wiki_revision": "eac6a037-bafd-11ea-bc97-0ee39a22552d",
       "last_wiki_update": "2020-06-30T18:17:12.000Z",
@@ -15227,31 +15227,31 @@ export const launchesTestData = [
               "nationality": "South Korea",
               "manufacturer": "South Korea",
               "payload_type": "Satellite",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "GEO",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "geosynchronous",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
         "fairings": {
-          "reused": null,
+          "reused": undefined,
           "recovery_attempt": true,
           "recovered": true,
           "ship": "GOMSTREE"
@@ -15263,7 +15263,7 @@ export const launchesTestData = [
         "JRTI"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -15285,9 +15285,9 @@ export const launchesTestData = [
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/hu6sci/rspacex_anasisii_official_launch_discussion/",
         "reddit_recovery": "https://www.reddit.com/r/spacex/comments/hvgjk9/anasisii_recovery_thread/",
         "reddit_media": "https://www.reddit.com/r/spacex/comments/hun4pv/rspacex_anasisii_media_thread_photographer_contest/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/07/20/spacex-delivers-south-koreas-first-military-satellite-into-on-target-orbit/",
-        "wikipedia": null,
+        "wikipedia": undefined,
         "video_link": "https://youtu.be/TshvZlQ7le8",
         "youtube_id": "TshvZlQ7le8",
         "flickr_images": [
@@ -15301,8 +15301,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-07-11T17:58:00.000Z",
       "static_fire_date_unix": 1594490280,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-07-20T20:27:49.000Z",
       "last_ll_launch_date": "2020-07-20T21:30:00.000Z",
       "last_ll_update": "2020-07-20T20:24:41.000Z",
@@ -15322,7 +15322,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -15445,19 +15445,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             },
             {
@@ -15476,25 +15476,25 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
         "fairings": {
-          "reused": null,
+          "reused": undefined,
           "recovery_attempt": true,
           "recovered": true,
           "ship": "GOMSTREE"
@@ -15506,7 +15506,7 @@ export const launchesTestData = [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -15528,7 +15528,7 @@ export const launchesTestData = [
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/i4ozw3/rspacex_starlink9_launch_discussion_updates/",
         "reddit_recovery": "https://www.reddit.com/r/spacex/comments/i5smhk/starlink_9blacksky_recovery_thread/",
         "reddit_media": "https://www.reddit.com/r/spacex/comments/hg499n/rspacex_starlink9_media_thread_photographer/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/08/07/spacex-closes-out-busy-week-with-launch-of-more-starlink-satellites",
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/KU6KogxG5BE",
@@ -15543,11 +15543,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-06-24T18:18:00.000Z",
       "static_fire_date_unix": 1593022680,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-08-04T02:33:44.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-08-07T05:12:00.000Z",
       "last_wiki_revision": "ea423e3d-d5fa-11ea-ad99-0e82730e990d",
       "last_wiki_update": "2020-08-04T02:33:44.000Z",
@@ -15627,19 +15627,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -15658,7 +15658,7 @@ export const launchesTestData = [
         "GOQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -15680,7 +15680,7 @@ export const launchesTestData = [
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/ibacxz/rspacex_starlink10_launch_discussion_updates/",
         "reddit_recovery": "https://www.reddit.com/r/spacex/comments/ic46fw/starlink10_recovery_updates_discussion_thread/",
         "reddit_media": "https://www.reddit.com/r/spacex/comments/ic29wg/rspacex_starlink10_media_thread_photographer/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/08/18/spacex-adds-more-satellites-to-ever-growing-starlink-network/",
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/jTMJK7wb0rM",
@@ -15694,13 +15694,13 @@ export const launchesTestData = [
       },
       "details": "This mission will launch the tenth batch of operational Starlink satellites, which are expected to be version 1.0, from LC-39A, Kennedy Space Center. It is the eleventh Starlink launch overall. The satellites will be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude of 550 km. This mission is includes rideshare payloads, SkySats 19-21, on top of the Starlink stack. The booster for this mission is expected to land on an ASDS.",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
-      "timeline": null,
-      "crew": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-08-15T02:21:25.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-08-18T14:31:00.000Z",
       "last_wiki_revision": "042bcead-de9e-11ea-b6d9-0e010ab9f931",
       "last_wiki_update": "2020-08-15T02:21:25.000Z",
@@ -15717,7 +15717,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -15749,7 +15749,7 @@ export const launchesTestData = [
                 "CONAE"
               ],
               "nationality": "Argentina",
-              "manufacturer": null,
+              "manufacturer": undefined,
               "payload_type": "Satellite",
               "payload_mass_kg": 1600,
               "payload_mass_lbs": 3527.396,
@@ -15757,27 +15757,27 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "sun-synchronous",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
         "fairings": {
-          "reused": null,
+          "reused": undefined,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSCHIEF"
         }
       },
@@ -15785,7 +15785,7 @@ export const launchesTestData = [
         "GOMSCHIEF"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -15805,9 +15805,9 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/e7/f6/v0zFOhZE_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/ffoz5r/saocom_1b_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/iiwlch/rspacex_saocom_1b_launch_discussion_updates_thread/",
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/08/31/spacex-launches-first-polar-orbit-mission-from-florida-in-decades/",
         "wikipedia": "https://en.wikipedia.org/wiki/SAOCOM",
         "video_link": "https://youtu.be/P-gLOsDjE3E",
@@ -15822,13 +15822,13 @@ export const launchesTestData = [
       },
       "details": "SpaceX's Falcon 9 will launch the second of the two satellite SAOCOM 1 satellites into a sun-synchronous polar orbit from SLC-40, Cape Canaveral AFS. SAOCOM 1B is a synthetic aperture radar Earth observation satellite to support disaster management. The SAOCOM spacecraft are operated by CONAE, the Argentinian National Space Activities Commission, and are built by INVAP. This mission is also expected to include rideshare payloads Sequoia, and GNOMES-1. This will be the first polar launch from the Space Coast in 60 years. The launch azimuth will be southward and the booster will land at LZ-1.",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
-      "timeline": null,
-      "crew": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-08-29T17:24:59.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-08-30T23:18:00.000Z",
       "last_wiki_revision": "90401a73-ea1c-11ea-8eed-0e86234a366d",
       "last_wiki_update": "2020-08-29T17:24:59.000Z",
@@ -15845,7 +15845,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -15885,27 +15885,27 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
         "fairings": {
-          "reused": null,
+          "reused": undefined,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSTREE"
         }
       },
@@ -15914,7 +15914,7 @@ export const launchesTestData = [
         "GOQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -15934,24 +15934,24 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/i63bst/starlink_general_discussion_and_deployment_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/iip8h3/rspacex_starlink11_launch_discussion_updates/",
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
-        "article_link": null,
-        "wikipedia": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
+        "article_link": undefined,
+        "wikipedia": undefined,
         "video_link": "https://youtu.be/_j4xR7LMCGY",
         "youtube_id": "_j4xR7LMCGY",
         "flickr_images": []
       },
       "details": "The 11th operational batch of Starlink satellites (12th overall) will lift off from LC-39A at Kennedy Space Center, Florida on a Falcon 9 rocket. In the weeks following deployment the Starlink satellites will use onboard ion thrusters to reach their operational altitude of 550 km. This is the third batch of Starlink satellites which all feature visors intended to reduce their visibility from Earth. Falcon 9's first stage will attempt to land on a drone ship approximately 628 km downrange, its sixth landing overall, and a ships is in place to attempt the recovery of both payload fairing halves.",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
-      "timeline": null,
-      "crew": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-08-31T20:59:24.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-09-03T12:46:00.000Z",
       "last_wiki_revision": "d93cd5a7-ebcc-11ea-8880-0e4f8bc9d887",
       "last_wiki_update": "2020-08-31T20:59:24.000Z",
@@ -15968,7 +15968,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16008,19 +16008,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -16039,7 +16039,7 @@ export const launchesTestData = [
         "GOMSTREE"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -16053,16 +16053,16 @@ export const launchesTestData = [
         "site_name": "KSC LC 39A",
         "site_name_long": "Kennedy Space Center Historic Launch Complex 39A"
       },
-      "launch_success": null,
+      "launch_success": undefined,
       "links": {
         "mission_patch": "https://images2.imgbox.com/d2/3b/bQaWiil0_o.png",
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/i63bst/starlink_general_discussion_and_deployment_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/iu0vtg/rspacex_starlink12_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/iudifm/rspacex_starlink12_media_thread_photographer/",
-        "presskit": null,
-        "article_link": null,
+        "presskit": undefined,
+        "article_link": undefined,
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/8O8Z2yPyTnc",
         "youtube_id": "8O8Z2yPyTnc",
@@ -16074,13 +16074,13 @@ export const launchesTestData = [
       },
       "details": "This mission will launch the twelfth batch of operational Starlink satellites, which are expected to be version 1.0, from SLC-40, Cape Canaveral Air Force Station. It is the thirteenth Starlink launch overall. The satellites will be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude of 550 km. The booster for this mission is expected to land on an ASDS.",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
-      "timeline": null,
-      "crew": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-10-05T12:20:06.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-10-06T11:29:00.000Z",
       "last_wiki_revision": "1999f041-0705-11eb-b6fb-0e9a3d1b3191",
       "last_wiki_update": "2020-10-05T12:20:06.000Z",
@@ -16097,7 +16097,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16137,19 +16137,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -16157,7 +16157,7 @@ export const launchesTestData = [
         "fairings": {
           "reused": true,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSTREE"
         }
       },
@@ -16168,7 +16168,7 @@ export const launchesTestData = [
         "GOQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -16188,9 +16188,9 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/i63bst/starlink_general_discussion_and_deployment_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/jctqq9/rspacex_starlink13_official_launch_discussion/",
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/10/18/spacex-launches-another-batch-of-starlink-satellites/",
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/UM8CDDAmp98",
@@ -16206,11 +16206,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-10-17T05:23:00.000Z",
       "static_fire_date_unix": 1602912180,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-10-17T10:41:18.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-10-18T12:25:00.000Z",
       "last_wiki_revision": "49b77cb7-1065-11eb-adc4-0e1a360978af",
       "last_wiki_update": "2020-10-17T10:41:18.000Z",
@@ -16227,7 +16227,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16267,19 +16267,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -16287,7 +16287,7 @@ export const launchesTestData = [
         "fairings": {
           "reused": false,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSCHIEF"
         }
       },
@@ -16298,7 +16298,7 @@ export const launchesTestData = [
         "GOQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -16318,9 +16318,9 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/i63bst/starlink_general_discussion_and_deployment_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/jetth8/rspacex_starlink14_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/jhcwun/rspacex_starlink14_media_thread_photographer/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/10/24/spacex-adds-another-60-satellites-to-starlink-network/",
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/2gbVgTxLgN0",
@@ -16331,11 +16331,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-10-21T12:55:00.000Z",
       "static_fire_date_unix": 1603284900,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-10-22T22:36:44.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-10-24T15:31:00.000Z",
       "last_wiki_revision": "0f30530b-14b7-11eb-9724-0e4c83c0de3f",
       "last_wiki_update": "2020-10-22T22:36:44.000Z",
@@ -16352,7 +16352,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16392,28 +16392,28 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "semi-synchronous",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
                 "lifespan_years": 15,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
         },
         "fairings": {
-          "reused": null,
-          "recovery_attempt": null,
-          "recovered": null,
-          "ship": null
+          "reused": undefined,
+          "recovery_attempt": undefined,
+          "recovered": undefined,
+          "ship": undefined
         }
       },
       "ships": [
@@ -16422,7 +16422,7 @@ export const launchesTestData = [
         "HAWK"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -16442,9 +16442,9 @@ export const launchesTestData = [
         "mission_patch_small": "https://i.imgur.com/Ehe9AgY.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/io0swm/gps_iii_sv04_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/jobxn2/rspacex_gps_iii_sv04_sacagawea_official_launch/",
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/11/06/spacex-launches-gps-navigation-satellite-from-cape-canaveral/",
         "wikipedia": "https://en.wikipedia.org/wiki/GPS_Block_III",
         "video_link": "https://youtu.be/wufXF5YKR1M",
@@ -16455,11 +16455,11 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-09-25T05:42:00.000Z",
       "static_fire_date_unix": 1601012520,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-11-02T12:13:58.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-11-05T23:24:00.000Z",
       "last_wiki_revision": "e21536bf-1d04-11eb-8908-0e0620cee639",
       "last_wiki_update": "2020-11-02T12:13:58.000Z",
@@ -16478,7 +16478,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16515,40 +16515,40 @@ export const launchesTestData = [
               "nationality": "United States",
               "manufacturer": "SpaceX",
               "payload_type": "Crew Dragon",
-              "payload_mass_kg": null,
-              "payload_mass_lbs": null,
+              "payload_mass_kg": undefined,
+              "payload_mass_lbs": undefined,
               "orbit": "ISS",
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 6797.192,
                 "eccentricity": 0.0001581,
                 "periapsis_km": 417.982,
                 "apoapsis_km": 420.132,
                 "inclination_deg": 51.6442,
                 "period_min": 92.951,
-                "lifespan_years": null,
+                "lifespan_years": undefined,
                 "epoch": "2020-12-20T14:08:30.000Z",
                 "mean_motion": 15.49203234,
                 "raan": 146.1501,
                 "arg_of_pericenter": 146.7873,
                 "mean_anomaly": 305.4906
               },
-              "mass_returned_kg": null,
-              "mass_returned_lbs": null,
-              "flight_time_sec": null,
-              "cargo_manifest": null
+              "mass_returned_kg": undefined,
+              "mass_returned_lbs": undefined,
+              "flight_time_sec": undefined,
+              "cargo_manifest": undefined
             }
           ]
         },
-        "fairings": null
+        "fairings": undefined
       },
       "ships": [
         "OCISLY"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -16568,9 +16568,9 @@ export const launchesTestData = [
         "mission_patch_small": "https://i.imgur.com/BzaSAnx.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/iwb8bl/crew1_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/ju7fxv/rspacex_crew1_official_launch_coast_docking/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/judv0r/rspacex_crew1_media_thread_photographer_contest/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/11/16/astronauts-ride-spacex-crew-capsule-in-landmark-launch-for-commercial-spaceflight/",
         "wikipedia": "https://en.wikipedia.org/wiki/SpaceX_Crew-1",
         "video_link": "https://youtu.be/bnChQbxLkkI",
@@ -16597,13 +16597,13 @@ export const launchesTestData = [
       },
       "details": "SpaceX will launch the first operational mission of its Crew Dragon vehicle as part of NASA's Commercial Crew Transportation Capability Program (CCtCap), carrying 3 NASA astronauts and 1 JAXA astronaut to the International Space Station. This mission will be the second crewed flight to launch from the United States since the end of the Space Shuttle program in 2011.",
       "upcoming": false,
-      "static_fire_date_utc": null,
-      "static_fire_date_unix": null,
-      "timeline": null,
+      "static_fire_date_utc": undefined,
+      "static_fire_date_unix": undefined,
+      "timeline": undefined,
       "crew": [],
       "last_date_update": "2020-11-13T21:31:19.000Z",
-      "last_ll_launch_date": null,
-      "last_ll_update": null,
+      "last_ll_launch_date": undefined,
+      "last_ll_update": undefined,
       "last_wiki_launch_date": "2020-11-16T00:27:00.000Z",
       "last_wiki_revision": "90e9da15-25f7-11eb-badd-0e3a392f3e47",
       "last_wiki_update": "2020-11-13T21:31:19.000Z",
@@ -16620,7 +16620,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16662,7 +16662,7 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "low-earth",
-                "longitude": null,
+                "longitude": undefined,
                 "semi_major_axis_km": 7715.87,
                 "eccentricity": 0.0007839,
                 "periapsis_km": 1331.686,
@@ -16680,15 +16680,15 @@ export const launchesTestData = [
           ]
         },
         "fairings": {
-          "reused": null,
+          "reused": undefined,
           "recovery_attempt": false,
-          "recovered": null,
-          "ship": null
+          "recovered": undefined,
+          "ship": undefined
         }
       },
       "ships": [],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": false,
@@ -16704,13 +16704,13 @@ export const launchesTestData = [
       },
       "launch_success": true,
       "links": {
-        "mission_patch": null,
-        "mission_patch_small": null,
+        "mission_patch": undefined,
+        "mission_patch_small": undefined,
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/jkk93v/sentinel6_michael_freilich_launch_campaign_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/jxsche/rspacex_sentinel6_official_launch_discussion/",
-        "reddit_recovery": null,
+        "reddit_recovery": undefined,
         "reddit_media": "https://www.reddit.com/r/spacex/comments/jyd67q/rspacex_sentinel6_media_thread_photographer/",
-        "presskit": null,
+        "presskit": undefined,
         "article_link": "https://spaceflightnow.com/2020/11/21/international-satellite-launches-to-extend-measurements-of-sea-level-rise/",
         "wikipedia": "https://en.wikipedia.org/wiki/Sentinel-6_Michael_Frielich",
         "video_link": "https://youtu.be/aVFPzTDCihQ",
@@ -16728,8 +16728,8 @@ export const launchesTestData = [
       "upcoming": false,
       "static_fire_date_utc": "2020-11-17T13:17:00.000Z",
       "static_fire_date_unix": 1605619020,
-      "timeline": null,
-      "crew": null,
+      "timeline": undefined,
+      "crew": undefined,
       "last_date_update": "2020-11-17T19:27:21.000Z",
       "last_ll_launch_date": "2020-11-21T17:17:00.000Z",
       "last_ll_update": "2020-11-05T23:48:07.000Z",
@@ -16749,7 +16749,7 @@ export const launchesTestData = [
       "is_tentative": false,
       "tentative_max_precision": "hour",
       "tbd": false,
-      "launch_window": null,
+      "launch_window": undefined,
       "rocket": {
         "rocket_id": "falcon9",
         "rocket_name": "Falcon 9",
@@ -16789,19 +16789,19 @@ export const launchesTestData = [
               "orbit_params": {
                 "reference_system": "geocentric",
                 "regime": "very-low-earth",
-                "longitude": null,
-                "semi_major_axis_km": null,
-                "eccentricity": null,
-                "periapsis_km": null,
-                "apoapsis_km": null,
-                "inclination_deg": null,
-                "period_min": null,
-                "lifespan_years": null,
-                "epoch": null,
-                "mean_motion": null,
-                "raan": null,
-                "arg_of_pericenter": null,
-                "mean_anomaly": null
+                "longitude": undefined,
+                "semi_major_axis_km": undefined,
+                "eccentricity": undefined,
+                "periapsis_km": undefined,
+                "apoapsis_km": undefined,
+                "inclination_deg": undefined,
+                "period_min": undefined,
+                "lifespan_years": undefined,
+                "epoch": undefined,
+                "mean_motion": undefined,
+                "raan": undefined,
+                "arg_of_pericenter": undefined,
+                "mean_anomaly": undefined
               }
             }
           ]
@@ -16809,7 +16809,7 @@ export const launchesTestData = [
         "fairings": {
           "reused": false,
           "recovery_attempt": true,
-          "recovered": null,
+          "recovered": undefined,
           "ship": "GOMSCHIEF"
         }
       },
@@ -16820,7 +16820,7 @@ export const launchesTestData = [
         "GOQUEST"
       ],
       "telemetry": {
-        "flight_club": null
+        "flight_club": undefined
       },
       "reuse": {
         "core": true,
@@ -16840,20 +16840,22 @@ export const launchesTestData = [
         "mission_patch_small": "https://images2.imgbox.com/9a/96/nLppz9HW_o.png",
         "reddit_campaign": "https://www.reddit.com/r/spacex/comments/i63bst/starlink_general_discussion_and_deployment_thread/",
         "reddit_launch": "https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/",
-        "reddit_recovery": null,
-        "reddit_media": null,
-        "presskit": null,
-        "article_link": null,
+        "reddit_recovery": undefined,
+        "reddit_media": undefined,
+        "presskit": undefined,
+        "article_link": undefined,
         "wikipedia": "https://en.wikipedia.org/wiki/Starlink",
         "video_link": "https://youtu.be/J442-ti-Dhg",
         "youtube_id": "J442-ti-Dhg",
         "flickr_images": []
       },
-      "details": null,
+      "details": undefined,
       "upcoming": false,
       "static_fire_date_utc": "2020-11-21T16:31:00.000Z",
       "static_fire_date_unix": 1605976260,
-      "timeline": null,
-      "crew": null
+      "timeline": undefined,
+      "crew": undefined
     }
   ];
+
+  export { launchesTestData as default };
