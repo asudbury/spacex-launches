@@ -39,9 +39,8 @@ export default function Launches(): JSX.Element {
     dataView = dataView.slice(dataView.length - 50, dataView.length);
 
     return (
-      <div>
+      <div data-testid="launches">
         <MaterialTable
-          data-testid="launchesTable"
           title=""
           icons={TableIcons}
           data={dataView}
