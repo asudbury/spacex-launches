@@ -10,12 +10,15 @@ test('Launch Links', () => {
 
   const launchLinks = getByTestId('launchLinks');
 
+  /// data test id
   expect(launchLinks).toBeInTheDocument();
 
+  /// labels
   expect(container).toHaveTextContent('Article');
   expect(container).toHaveTextContent('Wikipedia');
   expect(container).toHaveTextContent('Video');
 
+  /// data
   expect(container).toHaveTextContent(
     'https://www.space.com/2196-spacex-inaugural-falcon-1-rocket-lost-launch.html'
   );

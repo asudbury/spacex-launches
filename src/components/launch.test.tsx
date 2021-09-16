@@ -16,10 +16,26 @@ test('Launch', () => {
 
   const launch = getByTestId('launch');
 
+  /// data test id
   expect(launch).toBeInTheDocument();
 
+  /// tabs
   expect(container).toHaveTextContent('Mission');
   expect(container).toHaveTextContent('Rocket');
   expect(container).toHaveTextContent('Links');
   expect(container).toHaveTextContent('Json');
+
+  /// labels
+  expect(container).toHaveTextContent('Flight Number');
+  expect(container).toHaveTextContent('Mission Name');
+  expect(container).toHaveTextContent('Launch Date');
+  expect(container).toHaveTextContent('Launch Site');
+
+  // data
+  expect(container).toHaveTextContent('TESS');
+  expect(container).toHaveTextContent('18-Apr-2018 23:51:00');
+  expect(container).toHaveTextContent(
+    'Cape Canaveral Air Force Station Space Launch Complex 40'
+  );
+  expect(container).toHaveTextContent('Part of the Explorers program');
 });

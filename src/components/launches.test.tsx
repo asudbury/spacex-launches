@@ -13,10 +13,17 @@ test('Launches', () => {
 
   const launch = getByTestId('launches');
 
+  /// data test id
   expect(launch).toBeInTheDocument();
 
+  /// table headings
   expect(container).toHaveTextContent('Flight');
   expect(container).toHaveTextContent('Mission');
   expect(container).toHaveTextContent('Launch Date');
   expect(container).toHaveTextContent('Details');
+
+  /// data
+  expect(container).toHaveTextContent('TESS');
+  expect(container).toHaveTextContent('18-Apr-2018 23:51:00');
+  expect(container).toHaveTextContent('Part of the Explorers program');
 });
