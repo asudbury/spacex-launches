@@ -2,9 +2,36 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import Launches from './launches';
-import store from '../testData/mockStore';
+import {
+  getLoadingMockStore,
+  getErrorMockStore,
+  getMockStore
+} from '../testData/helper';
 
-test('Launches', () => {
+test('Launches Loading', () => {
+  const store = getLoadingMockStore();
+  const { container, getByTestId } = render(
+    <Provider store={store}>
+      <Launches />
+    </Provider>
+  );
+
+  expect(container).toHaveTextContent('....loading');
+});
+
+test('Launches Error', () => {
+  const store = getErrorMockStore();
+  const { container } = render(
+    <Provider store={store}>
+      <Launches />
+    </Provider>
+  );
+
+  expect(container).toHaveTextContent('error!');
+});
+
+test('Launches with Data', () => {
+  const store = getMockStore();
   const { container, getByTestId } = render(
     <Provider store={store}>
       <Launches />
