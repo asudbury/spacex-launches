@@ -16,33 +16,6 @@ const config = {
   reducerPath: 'spaceXApi'
 };
 
-function getInitialState(status: string, data: any): any {
-  const initialState = {
-    spaceXApi: {
-      queries: {
-        'getLaunches("")': {
-          status: status,
-          endpointName: 'getLaunches',
-          requestId: '9CsdcrS3ZHiWro4rXE0WT',
-          originalArgs: '',
-          startedTimeStamp: 1631720394141,
-          data: data,
-          mutations: {},
-          provided: {},
-          subscriptions: {
-            'getLaunches("")': {
-              '9CsdcrS3ZHiWro4rXE0WT': {
-                pollingInterval: 0
-              }
-            }
-          }
-        }
-      },
-      config: config
-    }
-  };
-}
-
 export function getMockStore(): any {
   const initialState = {
     spaceXApi: {
