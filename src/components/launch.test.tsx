@@ -3,9 +3,11 @@ import ReactRouter from 'react-router';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import Launch from './launch';
-import store from '../testData/mockStore';
+import { getMockStore } from '../testData/helper';
 
 test('Launch', () => {
+  const store = getMockStore();
+
   jest.spyOn(ReactRouter, 'useParams').mockReturnValue({ launchId: '60' });
 
   const { container, getByTestId } = render(

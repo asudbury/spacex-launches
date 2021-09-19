@@ -8,11 +8,19 @@ import { useGetLaunchesQuery } from '../redux/spaceXApi';
 import { Launch } from '../types';
 import TableIcons from './tableIcons';
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   nowrap: {
     display: 'flex',
     whiteSpace: 'nowrap',
     overflow: 'auto'
+  },
+  details: {
+    [theme.breakpoints.down('sm')]: {
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      maxWidth: '60ch'
+    }
   }
 }));
 
@@ -33,11 +41,10 @@ export default function Launches(): JSX.Element {
   if (isLoading) return <div>....loading</div>;
   if (error) return <div>error!</div>;
   if (data) {
-    dataView = data.map((o) => ({ ...o }));
-    /// we are assuming the data is in date ascending order!
-    /// pretty sure this could be done better :-)
-    dataView = dataView.slice(dataView.length - 50, dataView.length);
-
+    dataView = data
+      .slice(0)
+      .reverse()
+      .map((o) => ({ ...o }));
     return (
       <div data-testid="launches">
         <MaterialTable
@@ -86,7 +93,17 @@ export default function Launches(): JSX.Element {
             },
             {
               title: 'Details',
-              field: 'details'
+              field: 'details',
+              render: (rowData, type) => {
+                if (type === 'row') {
+                  return (
+                    <div>
+                      <p className={classes.details}>{rowData.details}</p>
+                    </div>
+                  );
+                }
+                return rowData;
+              }
             }
           ]}
           options={{
