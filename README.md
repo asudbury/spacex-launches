@@ -2,7 +2,7 @@
 
 # SpaceX Launches
 
-This application lists the most recent 50 launches from SpaceX.
+This application lists the most recent launches from SpaceX.
 <br />
 https://api.spacexdata.com/v2/launches
 <br />
@@ -15,11 +15,10 @@ https://asudbury.github.io/spaces-launches/
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=asudbury_spacex-launches)
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=asudbury_spacex-launches&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=asudbury_spacex-launches)
-
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=asudbury_spacex-launches&metric=bugs)](https://sonarcloud.io/dashboard?id=asudbury_spacex-launches)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+<br />
 npx create-react-app spacex-launches --template typescript
 
 ## Developed With
