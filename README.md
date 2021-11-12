@@ -31,6 +31,8 @@ npx create-react-app spacex-launches --template typescript
 
 [Airbnb style guide](https://github.com/airbnb/javascript/) for code styling
 
+<br />
+
 ## Built With
 
 [Material UI](https://material-ui.com/) for UI components, icons and styling
@@ -42,6 +44,21 @@ npx create-react-app spacex-launches --template typescript
 [Material Table](https://material-table.com/) for displaying table data
 
 [Syntax Highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter/) for displaying json data
+
+<br />
+
+## Tested With
+
+[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for component testing
+<br />
+npm test
+<br />
+<br />
+[Cypress](https://www.cypress.io/) for user interface testing
+<br />
+npx cypress open
+
+<br />
 
 ## Screen Shots
 
