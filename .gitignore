@@ -22,4 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vscode/settings.json
-cypress/integration/
+cypress/integration/1*
+cypress/integration/2*
+
